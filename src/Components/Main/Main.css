@@ -43,8 +43,13 @@
   }
   .Main-icons>span{
     background-color: blue;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
   }
 
   .Main-right{

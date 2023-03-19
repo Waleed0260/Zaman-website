@@ -4,7 +4,7 @@ import Main1 from "../../images/Main1.jpeg"
 import {FiFacebook} from "react-icons/fi"
 import {FiTwitter} from "react-icons/fi"
 import {FiInstagram} from "react-icons/fi"
-import {FaLinkedinIn} from "react-icons/fi"
+import {BsLinkedin} from "react-icons/bs"
 import {FiYoutube} from "react-icons/fi"
 
 
@@ -20,11 +20,11 @@ const Main = () => {
             </p>
             <div className="Main-icons">
                 <span><FiFacebook/></span>
-                <span><FiFacebook/></span>
-                <span><FiFacebook/></span>
-                <span><FiFacebook/></span>
-                <span><FiFacebook/></span>
-                <span><FiFacebook/></span>
+                <span><FiTwitter/></span>
+                <span><FiInstagram/></span>
+                <span><BsLinkedin/></span>
+                <span><FiYoutube/></span>
+
 
             </div>
         </div>
