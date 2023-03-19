@@ -1,15 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.Main-page{
+    background-color: #FFF6F1;
+    width: 100vw;
+    height: 38rem;
+}
+.Main-page>span:nth-of-type(1){
+    color: rgb(128, 0, 0);
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+
+.Main-page>span>.animation{
+    height: 30px;
+    width: 30px;
+    animation: mymove 10s linear infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }
+.Main-page>span:nth-of-type(2){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.Main-page>span:nth-of-type(3){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+.Main-page>span:nth-of-type(4){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 310px;
+    left: 80px;
+}
+.Main-page>span>.small{
+    height: 30px;
+    width: 30px;
+}
+.Main-page>span>.large{
+    height: 70px;
+    width: 70px;
+}
+.Main-page>span>*{
+    height: 40px;
+    width: 40px;
+    opacity: 0.5;
+}
+.Main-page>span:nth-of-type(5){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 100px;
+    left: 300px; 
+}
+.Main-page>span>.large{
+    height: 70px;
+    width: 70px;
+}
+.Main-page>span:nth-of-type(6){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 100px;
+    left: 35vw; 
+}
+.Main-page>span:nth-of-type(7){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 200px;
+    left: 35vw; 
+}
+.Main-page>span:nth-of-type(8){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 240px;
+    left: 48vw; 
+}
+.Main-page>span:nth-of-type(9){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 400px;
+    left: 45vw; 
+}
+.Main-page>span:nth-of-type(10){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 120px;
+    left: 55vw; 
+}
+.Main-page>span:nth-of-type(11){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 150px;
+    right: 10vw; 
+}
+.Main-page>span:nth-of-type(12){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 300px;
+    right: 5vw; 
+}
+.Main-page>span:nth-of-type(13){
+    color: rgb(149, 223, 120);
+    position: absolute;
+    top: 400px;
+    right: 9vw; 
+}
+.Main-page>span:nth-of-type(14){
+    color: rgb(128, 0, 0);
+    position: absolute;
+    top: 80px;
+    right: 14vw;
+}
+.Main-page>span:nth-of-type(15){
+    color: rgb(128, 0, 0);
+    position: absolute;
+    top: 230px;
+    right: 9vw;
+}
+
+
+
+/* circles */
+
+
 .Main{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #FFF6F1;
-    width: 100vw;
-    /* height: 30rem; */
-    height: 30rem;
+  }
+  .Main>*{
+    margin-top: 100px;
   }
   
+   /* left side */
+
   .Main-left{
     display: flex;
     flex-direction: column;
@@ -27,6 +159,7 @@
     font-family: 'Poppins', sans-serif;
     width: 150px;
     margin-top: -10px;
+
   }
  .Main-left>p{
     font-family: 'Poppins', sans-serif;
@@ -50,7 +183,30 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    cursor: pointer;
   }
+  .Main-icons>span>*{
+    height: 20px;
+    width: 20px;
+  }
+  .Main-icons>span:nth-of-type(1){
+    background-color: blueviolet;
+  }
+  .Main-icons>span:nth-of-type(2){
+    background-color: rgb(152, 139, 224);
+  }
+  .Main-icons>span:nth-of-type(3){
+    background-color: blueviolet;
+  }
+  .Main-icons>span:nth-of-type(4){
+    background-color: rgb(152, 139, 224);
+  }
+  .Main-icons>span:nth-of-type(5){
+    background-color: rgb(190, 0, 0);
+  }
+
+
+/* Right side */
 
   .Main-right{
     display: flex;
@@ -66,7 +222,7 @@
   .Main-right>span:nth-of-type(1){
     height: 120px;
     width: 80px;
-    background-color: rgb(94, 255, 0);
+    background-color: rgb(92, 211, 23);
     position: relative;
     top: 150px;
     left: 60px;
@@ -75,7 +231,7 @@
   .Main-right>span:nth-of-type(2){
     height: 200px;
     width: 80px;
-    background-color: rgb(94, 255, 0);
+    background-color: rgb(92, 211, 23);
     position: relative;
     right: 50px;
   }
