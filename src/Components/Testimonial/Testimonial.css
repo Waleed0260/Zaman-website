@@ -1,0 +1,24 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+}
+
+.test-head{
+    display: flex;
+    flex-direction: column;
+    margin-right: 34vw;
+}
+
+.test-head>b{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ff451b;
+}
+
+.test-head>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: black;
+    width: 350px;
+    margin-top: 0px;
+}

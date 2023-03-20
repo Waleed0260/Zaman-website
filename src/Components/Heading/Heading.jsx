@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import "./Heading.css"
-import {AiFillFile} from "react-icons/ai"
 import {BsChevronCompactDown} from "react-icons/bs"
 
-const Heading = ({icons, text, arrow}) => {
+const Heading = ({icons, text, click}) => {
     const[hover, setHover] = useState(false)
 
     const handleHover = ()=>{
@@ -29,13 +28,16 @@ const Heading = ({icons, text, arrow}) => {
       }
 
   return (
-    <div className='heading' onMouseOver={handleHover} onMouseLeave={()=> setHover(false)}>
+    <>
+        <div className='heading' onMouseOver={handleHover} onMouseLeave={()=> setHover(false)} onClick={click}>
       <span style={style}>{icons}</span>
       <div style={stylediv}>
         <b>{text}</b>
       </div>
       <span style={stylespan}><BsChevronCompactDown style={styleicon}/></span>
     </div>
+    </>
+
   )
 }
 

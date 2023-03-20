@@ -1,0 +1,24 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-head{
+    display: flex;
+    flex-direction: column;
+    margin-right: 34vw;
+}
+
+.blog-head>b{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ff451b;
+}
+
+.blog-head>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: black;
+    width: 350px;
+    margin-top: 0px;
+}

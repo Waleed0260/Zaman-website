@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+.contact{
+    width: 350px;
+    margin-top: -10px;
+}
+.con-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.con-icons>.first{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+
+}
+.con-icons>.first>span{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.con-icons>.first>span>*{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.con-icons>.first>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.con-icons>.first>div>p{
+    color: #1b1a1a;
+    opacity: 0.7;
+}
+
+.contact>b{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ff451b;
+}
+
+.contact>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    width: 400px;
+    color: black;
+    margin-top: -0px;
+}
+
+
+
+.form{
+    width:500px;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    height: 260px;
+    width: 500px;
+}
+form>input{
+    border-radius: 7px;
+    height: 50px;
+    width: 230px;
+    border: 1px solid aqua;
+}
+form>textarea{
+    height: 100px;
+    width: 490px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid aqua;
+    border-radius: 7px;
+
+}
