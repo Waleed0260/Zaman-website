@@ -79,7 +79,7 @@ form{
 form>input{
     border-radius: 7px;
     height: 50px;
-    width: 230px;
+    width: 17vw;
     border: 1px solid aqua;
 }
 form>textarea{
@@ -90,4 +90,25 @@ form>textarea{
     border: 1px solid aqua;
     border-radius: 7px;
 
+}
+
+
+@media screen and (max-width:1100px) {
+    .contact>h2{
+        width: 100%;
+    }
+    .contact-me{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    form>input{
+        border-radius: 7px;
+        height: 50px;
+        width: 35vw;
+        border: 1px solid aqua;
+    }
 }

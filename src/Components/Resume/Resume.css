@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .resume-head{
-    margin-left: -70px;
+    margin-left: 20px;
 }
 .resume-head>b{
     color: #ff451b;
@@ -26,5 +26,158 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    gap: 1rem;
 }
+.resume-left{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+
+}
+.prof-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.prof-summary>h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    gap: 0.4rem;
+}
+
+.prof-summary>h2>span{
+    color: #ff451b;
+}
+
+.prof-summary>p{
+    color: black;
+    opacity: 0.8;
+    margin-top: -20px;
+
+}
+
+
+.prof-experience{
+    font-family: 'Poppins', sans-serif;
+}
+.prof-experience>h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    gap: 0.4rem;
+}
+
+.prof-experience>h2>span{
+    color: #ff451b;
+}
+
+.felixhawk>b{
+    font-size: 20px;
+}
+.felixhawk>p{
+    color: black;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+.felixhawk>ul>li{
+    color: black;
+    opacity: 0.8;
+}
+
+/* RESUME RIGHT */
+
+.resume-right{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+
+.resume-right>h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    gap: 0.4rem;
+}
+
+.resume-right>h2>span{
+    color: #ff451b;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.skills>.add{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills>.add>.sk-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills>.add>.sk-name>p:nth-of-type(1){
+    font-weight: bold;
+}
+.skills>.add>.sk-lines{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: -4px;
+
+}
+.add>.sk-lines>span{
+    width: 100%;
+    height: 7px;
+    background-color: #ff451b;
+    border-radius: 6px;
+}
+
+.add>.sk-lines>span:nth-of-type(2){
+    background-color: rgb(212, 212, 212);
+}
+
+.resume-right>.skills>.software{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.resume-right>.skills>.software>h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    gap: 0.4rem;
+}
+
+.resume-right>.skills>.software>h2>span{
+    color: #ff451b;
+}
+
+.soft-skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+.soft-skills>.office{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    background-color: transparent;
+    border: 4px solid #ff451b;
+    border-radius: 100%;
+}
+

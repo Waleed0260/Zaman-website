@@ -10,7 +10,7 @@ import ServiceData from "./ServiceData";
 
 const Service = () => {
   return (
-    <div className="about-me" style={{height: "58rem"}}>
+    <div className="about-me about-service">
       <div className="Services">
         <div className="serv-head">
           <b>Services</b>

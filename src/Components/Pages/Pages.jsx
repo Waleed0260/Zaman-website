@@ -20,32 +20,67 @@ const Pages = () => {
   const[blog, setBlog] = useState(false);
   const[test, setTest] = useState(false);
   const[serv, setServ] = useState(false)
-  const [clickCount, setClickCount] = useState(0);
 
 
   const handleClick = () => {
-    setClickCount(prevCount => prevCount + 1);
-    if (clickCount % 2 === 0) {
       setAbout(true);
       setResume(false)
       setContact(false);
-    } else {
-      setAbout(false);
-    }
+      setBlog(false);
+      setTest(false)
+      setServ(false)
   };
 
 
   const handleContact = () => {
-    setClickCount(prevCount => prevCount + 1);
-    if (clickCount % 2 === 0) {
-      setContact(true);
-      setAbout(false);
-      setResume(false)
-    } else {
-      setContact(false);
-    }
+    setAbout(false);
+    setResume(false)
+    setContact(true);
+    setAbout(false);
+    setBlog(false);
+    setTest(false)
+    setServ(false)
   };
 
+  const handleResume = () => {
+    setAbout(false);
+    setResume(true)
+    setContact(false);
+    setAbout(false);
+    setBlog(false);
+    setTest(false)
+    setServ(false)
+  };
+
+  const handleServ = () => {
+    setAbout(false);
+    setResume(false)
+    setContact(false);
+    setAbout(false);
+    setBlog(false);
+    setTest(false)
+    setServ(true)
+  };
+
+  const handleTest = () => {
+    setAbout(false);
+    setResume(false)
+    setContact(false);
+    setAbout(false);
+    setBlog(false);
+    setTest(true)
+    setServ(false)
+  };
+
+  const handleBlog = () => {
+    setAbout(false);
+    setResume(false)
+    setContact(false);
+    setAbout(false);
+    setBlog(true);
+    setTest(false)
+    setServ(false)
+  };
 
   return (
     <div>
@@ -53,20 +88,20 @@ const Pages = () => {
       <div className="about-page">
       {about && <About/>}
       </div>
-      <Heading icons={<AiFillContacts/>} text="Resume" click={()=> setResume(true)}/>
+      <Heading icons={<AiFillContacts/>} text="Resume" click={handleResume}/>
       <div className="about-page">
       {resume && <Resume/>}
       </div>     
        <Heading icons={<TfiBag/>} text="Portfolio" />
-      <Heading icons={<FiSettings/>} text="Service" click={()=> setServ(true)}/>
+      <Heading icons={<FiSettings/>} text="Service" click={handleServ}/>
       <div className="about-page">
       {serv && <Service/>}
       </div>
-      <Heading icons={<BiMessageCheck/>} text="Testimonial" click={()=> setTest(true)}/>
+      <Heading icons={<BiMessageCheck/>} text="Testimonial" click={handleTest}/>
       <div className="about-page">
       {test && <Testimonial/>}
       </div>          
-      <Heading icons={<FaPager/>} text="Blog" click={()=> setBlog(true)}/>
+      <Heading icons={<FaPager/>} text="Blog" click={handleBlog}/>
       <div className="about-page">
       {blog && <Blog/>}
       </div>          
