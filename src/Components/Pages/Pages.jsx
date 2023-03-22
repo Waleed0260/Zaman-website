@@ -61,7 +61,7 @@ const Pages = () => {
       <Heading icons={<FiSettings/>} text="Service" click={()=> setServ(true)}/>
       <div className="about-page">
       {serv && <Service/>}
-      </div>      
+      </div>
       <Heading icons={<BiMessageCheck/>} text="Testimonial" click={()=> setTest(true)}/>
       <div className="about-page">
       {test && <Testimonial/>}

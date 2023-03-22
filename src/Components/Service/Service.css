@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
 .services{
     display: flex;
     flex-direction: column;
@@ -21,4 +24,55 @@
     color: black;
     width: 350px;
     margin-top: 0px;
+}
+
+.serv-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+
+
+
+/* "ServiceData" */
+
+
+.serviceData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: 0 5px 60px -4px rgb(0 0 0 / 0.25);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+
+.serviceData>span{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.serviceData>span>*{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.serviceData>p{
+    color: black;
+    opacity: 0.8;
+    margin-top: -10px;
 }

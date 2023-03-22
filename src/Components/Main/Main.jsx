@@ -1,19 +1,22 @@
 import React from 'react'
 import "./Main.css"
-import Main1 from "../../images/Main1.jpeg"
+import digitalmarketer from "../../images/digitalmarketer.png"
 import {FiFacebook} from "react-icons/fi"
 import {BsTwitter} from "react-icons/bs"
 import {FiInstagram} from "react-icons/fi"
 import {BsLinkedin} from "react-icons/bs"
 import {BsYoutube, BsCircleFill, BsCircle} from "react-icons/bs"
 import {RxCross1} from "react-icons/rx"
-
-
+import {BsQuora} from "react-icons/bs"
+import MyResume from "../../images/MyResume.pdf"
 
 const Main = () => {
   return (
     <>
     <div className="Main-page">
+        <a href={MyResume} download>
+            <button className='main-btn'><b>Download CV</b></button>
+        </a>
         <span><RxCross1 className='animation'/></span>
         <span><BsCircle/></span>
         <span><BsCircleFill/></span>
@@ -32,21 +35,24 @@ const Main = () => {
     <div className='Main'>
         <div className="Main-left">
             <b>I'm</b>
-            <h1>Tom Anderson</h1>
+            <h1>Zaman Zahoor</h1>
             <p>
-            A passionate UI/UX Designer and Senior Web Developer based In NYC, USA
+            Hi I am Zaman An Innovative digital marketing coordinator | Google and Facebook ads media buyer
+
             </p>
             <div className="Main-icons">
-                <span><FiFacebook/></span>
-                <span><BsTwitter/></span>
-                <span><FiInstagram/></span>
-                <span><BsLinkedin/></span>
-                <span><BsYoutube/></span>
+                <span><a href="https://www.facebook.com/profile.php?id=10008944707"><FiFacebook/></a> </span>
+                <span><a href="https://twitter.com/The_Marketer_70"><BsTwitter/></a></span>
+                <span><a href="https://www.instagram.com/zamanthemarketer"><FiInstagram/></a></span>
+                <span><a href="https://www.linkedin.com/in/zamanzahoor"><BsLinkedin/></a></span>
+                <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ"><BsYoutube/></a></span>
+                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2"><BsQuora/></a></span>
+
             </div>
         </div>
         <div className="Main-right">
             <span></span>
-            <img src={Main1} alt="" />
+            <img src={digitalmarketer} alt="" />
             <span></span>
         </div>
     </div>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-head{
+    margin-left: -70px;
+}
+.resume-head>b{
+    color: #ff451b;
+    font-size: 20px;
+}
+
+.resume-head>h3{
+    font-size: 35px;
+    width: 500px;
+    margin-top: 0px;
+}
+
+
+
+.resume-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}

@@ -6,6 +6,23 @@
     width: 100vw;
     height: 38rem;
 }
+.main-btn{
+  height: 35px;
+  width: 170px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: none;
+  background-color: #ff451b;
+  border-radius: 7px;
+  position: absolute;
+  top: 20px;
+  right: 20vw;
+  cursor: pointer;
+}
+.main-btn:hover{
+  background-color: orange;
+  transition: 0.3s;
+}
 .Main-page>span:nth-of-type(1){
     color: rgb(128, 0, 0);
     position: absolute;
@@ -158,14 +175,14 @@
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
     width: 150px;
-    margin-top: -10px;
+    margin-top: 10px;
 
   }
  .Main-left>p{
     font-family: 'Poppins', sans-serif;
     margin-top: -20px;
     color: rgb(160, 158, 158);
-    width: 400px;
+    width: 500px;
     font-size: bold;
   }
 
@@ -174,11 +191,10 @@
     flex-direction: row;
     gap: 1rem;
   }
-  .Main-icons>span{
-    background-color: blue;
+  .Main-icons>span>a{
+    /* background-color: blue; */
     height: 40px;
     width: 40px;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,22 +205,37 @@
     height: 20px;
     width: 20px;
   }
+  .Main-icons>span>a>*{
+    color: white;
+  }
   .Main-icons>span:nth-of-type(1){
     background-color: blueviolet;
+    border-radius: 100%;
   }
   .Main-icons>span:nth-of-type(2){
     background-color: rgb(152, 139, 224);
+    border-radius: 100%;
+
   }
   .Main-icons>span:nth-of-type(3){
     background-color: blueviolet;
+    border-radius: 100%;
+
   }
   .Main-icons>span:nth-of-type(4){
     background-color: rgb(152, 139, 224);
+    border-radius: 100%;
+
   }
   .Main-icons>span:nth-of-type(5){
     background-color: rgb(190, 0, 0);
+    border-radius: 100%;
   }
+  .Main-icons>span:nth-of-type(6){
+    background-color: rgb(152, 139, 224);
+    border-radius: 100%;
 
+  }
 
 /* Right side */
 
@@ -222,7 +253,7 @@
   .Main-right>span:nth-of-type(1){
     height: 120px;
     width: 80px;
-    background-color: rgb(92, 211, 23);
+    background-color: orange;
     position: relative;
     top: 150px;
     left: 60px;
@@ -231,7 +262,7 @@
   .Main-right>span:nth-of-type(2){
     height: 200px;
     width: 80px;
-    background-color: rgb(92, 211, 23);
+    background-color: orange;
     position: relative;
     right: 50px;
   }
