@@ -6,7 +6,7 @@ import blog1 from "../../images/blog1.jpg";
 const Blog = () => {
 
   return (
-    <div className="about-me">
+    <div className="about-me about-blog">
       <div className="blog">
         <div className="blog-head">
           <b>Blog</b>

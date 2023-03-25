@@ -21,28 +21,37 @@ const Pages = () => {
   const[test, setTest] = useState(false);
   const[serv, setServ] = useState(false)
 
+  // Counter states
+  const[clickCount, setClickCount] = useState(0)
+  const[click, setClicked] = useState(0)
+  const[countResume, setCountResume] = useState(0);
+  const[countServ, setCountServ] = useState(0);
+  const[countTest, setCountTest] = useState(0)
+  const[countBlog, setCountBlog] = useState(0);
+
+
 
   const handleClick = () => {
+    setClickCount(prevCount => prevCount + 1);
+    if (clickCount % 2 === 0) {
       setAbout(true);
       setResume(false)
       setContact(false);
       setBlog(false);
       setTest(false)
       setServ(false)
+    }
+      else{
+        setAbout(false)
+      }
   };
 
 
-  const handleContact = () => {
-    setAbout(false);
-    setResume(false)
-    setContact(true);
-    setAbout(false);
-    setBlog(false);
-    setTest(false)
-    setServ(false)
-  };
 
   const handleResume = () => {
+    setCountResume(prevCount => prevCount + 1);
+    if (countResume % 2 === 0) {
+
     setAbout(false);
     setResume(true)
     setContact(false);
@@ -50,9 +59,15 @@ const Pages = () => {
     setBlog(false);
     setTest(false)
     setServ(false)
+    }
+    else{
+      setResume(false)
+    }
   };
 
   const handleServ = () => {
+    setCountServ(prevCount => prevCount + 1);
+    if (countServ % 2 === 0) {
     setAbout(false);
     setResume(false)
     setContact(false);
@@ -60,9 +75,16 @@ const Pages = () => {
     setBlog(false);
     setTest(false)
     setServ(true)
+    }
+    else{
+
+      setServ(false)
+    }
   };
 
   const handleTest = () => {
+    setCountTest(prevCount => prevCount + 1);
+    if (countTest % 2 === 0) {
     setAbout(false);
     setResume(false)
     setContact(false);
@@ -70,9 +92,15 @@ const Pages = () => {
     setBlog(false);
     setTest(true)
     setServ(false)
+    }
+    else{
+      setTest(false);
+    }
   };
 
   const handleBlog = () => {
+    setCountBlog(prevCount => prevCount + 1);
+    if (countBlog % 2 === 0) {
     setAbout(false);
     setResume(false)
     setContact(false);
@@ -80,7 +108,31 @@ const Pages = () => {
     setBlog(true);
     setTest(false)
     setServ(false)
+    }
+    else{
+      setBlog(false)
+    }
   };
+
+  const handleContact = () => {
+    setClicked(prevCount => prevCount + 1);
+
+    if (click % 2 === 0) {
+
+    setAbout(false);
+    setResume(false)
+    setContact(true);
+    setAbout(false);
+    setBlog(false);
+    setTest(false)
+    setServ(false)
+    }
+    else{
+      setContact(false)
+    }
+  };
+
+
 
   return (
     <div>

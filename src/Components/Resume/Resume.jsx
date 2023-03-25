@@ -4,7 +4,7 @@ import { BsRecordCircle } from "react-icons/bs";
 
 const Resume = () => {
   return (
-    <div className="about-me" style={{ height: "90rem" }}>
+    <div className="about-me about-resume">
       <div className="resume">
         <div className="resume-head">
           <b>Resume</b>

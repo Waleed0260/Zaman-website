@@ -78,7 +78,7 @@
     margin-top: 0px;
 }
 
-.about-text>button{
+.about-text>a>button{
     height: 40px;
     width: 150px;
     border: none;
@@ -87,7 +87,10 @@
     border-radius: 10px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-
+}
+.about-text>a>button:hover{
+    background-color: orange;
+    transition: 0.3s;
 }
 
 

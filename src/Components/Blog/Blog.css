@@ -71,3 +71,51 @@
     margin-left: 10px;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+
+@media screen and (max-width:1100px) {
+    .about-blog{
+        height: 62rem;
+    }
+    .blog-head{
+        margin-left: 140px;
+    }
+    .blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .blog-page{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-page>.blog-sec{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .blog-head{
+        margin-left: 10px;
+    }
+    .blog-page>.blog-sec{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about-blog{
+        height: 80rem;
+    }
+    .blog-page{
+        display: flex;
+        flex-direction: column;
+        margin-left: -120px;
+    }
+    .blog-page>.blog-sec{
+        width: 65vw;
+    }
+}

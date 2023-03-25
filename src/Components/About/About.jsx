@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutimg from "../../images/aboutimg.jpg";
+import MyResume from "../../images/MyResume.pdf"
 
 const About = () => {
   return (
@@ -37,10 +38,13 @@ const About = () => {
           Insights. I am committed to staying ahead of industry trends and using
           cutting-edge technologies to drive successful results.
         </p>
+        <a href={MyResume} download>
         <button>
-          {" "}
-          <b>Download CV</b>{" "}
+          <b>Download CV</b>
+
         </button>
+
+        </a>
       </div>
     </div>
   );

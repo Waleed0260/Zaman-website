@@ -106,8 +106,11 @@
 }
 
 @media screen and (max-width:550px) {
+    .Services{
+        margin-top: -40px;
+    }
     .about-service{
-        height: 160rem;
+        height: 153rem;
     }
     .serv-content{
         display: grid;

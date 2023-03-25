@@ -39,14 +39,15 @@ const Contact = () => {
             </div>
         </div>
         <div className="form">
-          <form>
+          <form id="usrform">
             <input type="text" name="name" id="" placeholder="name" />
-            <input type="email" name="email" id="" placeholder="email"  style={{marginLeft: "-240px"}}/>
+            <input type="email" name="email" id="" placeholder="email"  />
             <input type="text" name="number" id="" placeholder="number"/>
-            <input type="text" name="subject" id="" placeholder="subject"   style={{marginLeft: "-240px"}}/>
+            <input type="text" name="subject" id="" placeholder="subject"/>
             {/* <input type="text" name="message" id="" placeholder="Message" /> */}
-            <textarea id="message" placeholder="Your message here"/>
           </form>
+          <textarea name="comment" form="usrform" placeholder="Enter text here">Enter text here...</textarea>
+
         </div>
       </div>
     </div>

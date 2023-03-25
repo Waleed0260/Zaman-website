@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 34vw;
+    margin-top: -20px;
 }
 
 .test-head>b{
@@ -21,4 +22,100 @@
     color: black;
     width: 350px;
     margin-top: 0px;
+}
+
+
+.testo{
+    width: 22rem;
+    height: 23rem;
+    /* background: rgba(255, 255, 255, 0.26); */
+    /* border: 7px solid grey ; */
+    /* background-color: #ff451b; */
+    border-radius: 20px;
+    /* background-color: blue; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.test>.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testo>.para>p{
+    column-rule: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+    text-align: center;
+
+}
+.testo>.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial .swiper {
+    width: 50rem;
+    height: 31rem;
+    margin-top: -60px;
+}
+
+.testimonial .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide>.testo>.image>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.testimonial .swiper-pagination-bullet-active{
+    background: yellow;
+    margin-top: 20px !important;
+}
+
+
+@media screen and (max-width:1100px) {
+    .about-test{
+        height: 50rem;
+    }
+    .testimonial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial .swiper{
+        margin-left: 70px;
+        margin-top: -40px;
+        width: 80vw;
+    }
+    .testo{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .test-head{
+        margin-left: 40px;
+    }
+    .testimonial .swiper{
+        margin-left: 20px;
+        /* background-color: #d6d6d6; */
+        width: 40rem;
+    }
+    .testo{
+        width: 40vw;
+    }
 }

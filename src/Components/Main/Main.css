@@ -277,3 +277,16 @@
       flex-direction: column;
     }
   }
+
+  @media screen and (max-width:480px) {
+    .Main-left{
+      margin-left: 40px;
+    }
+    .Main-left>h1{
+      font-size: 50px;
+    }
+
+    .Main-left>p{
+      width: 400px;
+    }
+  }

@@ -73,7 +73,7 @@
 form{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    height: 260px;
+    height: 160px;
     width: 500px;
 }
 form>input{
@@ -81,14 +81,17 @@ form>input{
     height: 50px;
     width: 17vw;
     border: 1px solid aqua;
+    display: flex;
+    gap: 3rem;
 }
-form>textarea{
+textarea{
     height: 100px;
     width: 490px;
-    text-align: left;
-    vertical-align: top;
+    /* text-align: left; */
+    /* vertical-align: top; */
     border: 1px solid aqua;
     border-radius: 7px;
+
 
 }
 
@@ -104,11 +107,10 @@ form>textarea{
     .form{
         margin-top: 30px;
         margin-left: 70px;
+        width: 700px;
     }
     form>input{
-        border-radius: 7px;
-        height: 50px;
-        width: 35vw;
-        border: 1px solid aqua;
+        width: 18rem;
+        gap: 5rem;
     }
 }
