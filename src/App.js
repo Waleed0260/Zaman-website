@@ -21,14 +21,16 @@ function App() {
       <div className='about'>
         <Pages/>
       </div>
-      <Footer/>
       <FloatingWhatsApp
         phoneNumber="+923437009415"
         accountName="Zaman"
         statusMessage="Replies within 15 minutes"
-        chatMessage="How can I help you"
+        chatMessage="Hello there! How can I help you ?"
         avatar={digitalmarketer}
+        chatboxHeight={350}
         />
+      <Footer/>
+
     </div>
     </Suspense>
 
