@@ -137,3 +137,9 @@ textarea{
         width: 300px;
     }
 }
+
+@media screen and (max-width:320px) {
+    .form{
+        margin-left: 20px;
+    }
+}

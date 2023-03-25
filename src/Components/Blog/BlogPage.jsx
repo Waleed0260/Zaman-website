@@ -22,7 +22,7 @@ const BlogPage = ({open, name, title, img, onClose}) => {
         zIndex: 1000,
         border: "4px solid var(--orange)",
         width: "50vw",
-        height: "25rem",
+        height: "23rem",
         overflow: "scroll",
     }
     if(!open) return null

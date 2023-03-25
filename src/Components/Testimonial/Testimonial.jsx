@@ -51,25 +51,19 @@ const Testimonial = () => {
         <Swiper
       // navigation={true}
         modules={[Pagination, Navigation]}
-        slidesPerView={2}
+        // slidesPerView={2}
         pagination={{ clickable: true }}
-        // breakpoints={{
-        //   1220:{
-        //     slidesPerView: 2,
-        //   },
-        //   1024:{
-        //     width: 1024,
-        //     slidesperView:2,
-        //   },
-        //   992:{
-        //     width: 992,
-        //     slidesperView: 2,
-        //   },
-        //   768:{
-        //     width: 768,
-        //     slidesPerView: 1,
-        //   },
-        // }}
+        breakpoints={{
+          0:{
+            slidesPerView: 1,
+          },
+          480:{
+            slidesPerView: 1,
+          },
+          768:{
+            slidesPerView: 2,
+          }
+        }}
         >
 
         {clients.map((client, index) => {

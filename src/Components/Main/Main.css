@@ -290,3 +290,41 @@
       width: 400px;
     }
   }
+
+  @media screen and (max-width:420px) {
+    .Main-left{
+      margin-left: 0px;
+    }
+    .Main-left>p{
+      width: 350px;
+    }
+  }
+/* 
+  @media screen and (max-width:360px) {
+    .Main-left{
+      margin-left: 30px;
+    }
+  } */
+
+  @media screen and (max-width:360px) {
+    /* .Main-left{
+      margin-left: -60px;
+    } */
+    .Main-left>h1{
+      font-size: 45px;
+    }
+    .Main-left>p{
+      width: 250px;
+    }
+    .Main-icons{
+      gap: 0.6rem;
+    }
+    .Main-icons>span>a{
+      height: 30px;
+      width: 30px;
+    }
+    .Main-icons>span>*{
+      height: 10px;
+      width: 10px;
+    }
+  }
