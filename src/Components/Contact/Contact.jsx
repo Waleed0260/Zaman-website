@@ -7,7 +7,7 @@ import {GrLocation} from "react-icons/gr"
 
 const Contact = () => {
   return (
-    <div className="about-me">
+    <div className="about-me about-contact">
       <div className="contact-me">
         <div className="contact">
             <b>Contact Me</b>
@@ -46,7 +46,7 @@ const Contact = () => {
             <input type="text" name="subject" id="" placeholder="subject"/>
             {/* <input type="text" name="message" id="" placeholder="Message" /> */}
           </form>
-          <textarea name="comment" form="usrform" placeholder="Enter text here">Enter text here...</textarea>
+          <textarea name="comment" form="usrform" placeholder="Enter text here"></textarea>
 
         </div>
       </div>
