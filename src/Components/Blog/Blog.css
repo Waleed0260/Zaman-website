@@ -119,3 +119,19 @@
         width: 65vw;
     }
 }
+
+@media screen and (max-width:380px) {
+    .blog-page{
+        margin-left: -170px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .blog-head>h2{
+        width: 300px;
+    }
+    .blog-page{
+        margin-top: -30px;
+        margin-left: -150px;
+    }
+}

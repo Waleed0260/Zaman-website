@@ -24,8 +24,8 @@ const Contact = () => {
                 <div className="first">
                     <span><AiOutlineMail/></span>
                     <div>
-                        <b>Email US</b>
-                        <p style={{marginTop: "5px"}}>+92 3437009415</p>
+                        <b>Email </b>
+                        <p style={{marginTop: "5px"}}>zamanmuhammadi700 <br />@gmail.com</p>
                     </div>
                 </div>
 
