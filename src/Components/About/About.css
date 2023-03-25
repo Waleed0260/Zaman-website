@@ -97,7 +97,7 @@
 
 @media screen and (max-width:1100px) {
     .about-me{
-        height: 55rem;
+        height: 23rem;
         width: 90vw;
         display: flex;
         flex-direction: column;
@@ -107,28 +107,22 @@
         width: 80vw;
         margin-left: 50px;
         /* margin-left: -100px; */
-        margin-top: -130px;
+        margin-top: -10px;
     }
-    .about-img>img{
-        height: 350px;
-        width: 85vw;
-        margin-left: 10px;    
-    }
-    .about-img>div{
+    .about-img{
         display: none;
     }
-    /* .about-img>div>.context{
-        display: flex;
-        flex-direction: column;
-        margin: 20px 0 0 10px;
-    } */
+}
+
+@media screen and (max-width:790px) {
+    .about-me{
+        height: 29rem;
+    }
 }
 
 @media screen and (max-width:510px) {
-    .about-img>img{
-        height: 350px;
-        width: 80vw;
-        margin-left: 10px;    
+    .about-me{
+        height: 37rem;
     }
     .about-text{
         margin-top: -60px;
@@ -143,7 +137,13 @@
     .about-text>p:nth-of-type(1){
         margin-top: -13px;
     }
-    .about-img>img{
-        height: 250px;  
+}
+
+@media screen and (max-width:360px) {
+    .about-me{
+        height: 41rem;
+    }
+    .about-text{
+        margin-top: 0px;
     }
 }
