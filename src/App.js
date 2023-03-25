@@ -2,10 +2,11 @@ import './App.css';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Suspense, lazy } from 'react';
 import Loader from './Loader';
+import digitalmarketer from "./images/digitalmarketer.png"
+
 const Footer = lazy(() => import("./Components/Footer/Footer"));
 const Main = lazy(() => import("./Components/Main/Main"));
 const Pages = lazy(() => import("./Components/Pages/Pages"));
-
 
 
 
@@ -23,7 +24,11 @@ function App() {
       <Footer/>
       <FloatingWhatsApp
         phoneNumber="+923437009415"
-        accountName="Zaman"/>
+        accountName="Zaman"
+        statusMessage="Replies within 15 minutes"
+        chatMessage="How can I help you"
+        avatar={digitalmarketer}
+        />
     </div>
     </Suspense>
 
