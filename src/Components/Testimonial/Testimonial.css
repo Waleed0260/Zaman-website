@@ -139,6 +139,9 @@
 }
 
 @media screen and (max-width:390px) {
+    .about-test{
+        height: 42rem;
+    }
     .testimonial .swiper{
         margin-left: -110px;
     }
