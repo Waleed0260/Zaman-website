@@ -70,7 +70,7 @@ const Contact = () => {
           </form>
           <textarea name="message" form="usrform" placeholder="Enter Your Comments Here" required></textarea>
           <button type="submit" form="usrform"><b>Submit</b></button>
-          {done && <div style={{marginTop: "10px"}}>Thank you for contacting me</div>}
+          {done && <div style={{marginTop: "10px"}} className="done">Thank you for contacting me</div>}
 
         </div>
 

@@ -116,7 +116,7 @@ textarea::placeholder {
 
 @media screen and (max-width:1100px) {
     .about-contact{
-        height: 65rem;
+        height: 67rem;
         margin-bottom: 20px;
     }
     .contact-me{
@@ -161,6 +161,9 @@ textarea::placeholder {
         position: relative;
         top: 30px;
         right: 270px;
+      }
+      .done{
+        margin-top: 20px;
       }
 
 }
