@@ -166,7 +166,8 @@ textarea::placeholder {
         right: 270px;
       }
       .done{
-        margin-top: 50px;
+        position: relative;
+        top: 50px;
         }
 }
 
