@@ -163,7 +163,7 @@ textarea::placeholder {
         right: 270px;
       }
       .done{
-        margin-top: 50px;
+        margin-bottom: -50px;
       }
 
 }
