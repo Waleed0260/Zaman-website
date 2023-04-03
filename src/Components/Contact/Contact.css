@@ -165,10 +165,7 @@ textarea::placeholder {
 
 }
 
-@media screen and (max-width:340px) {
-    .form{
-        margin-left: 20px;
-    }
+@media screen and (max-width:370px) {
     .form>button{
         position: relative;
         top: 30px;
@@ -176,6 +173,13 @@ textarea::placeholder {
       }
 }
 
-@media screen and (max-width:320px) {
-    
+@media screen and (max-width:340px) {
+    .form{
+        margin-left: 20px;
+    }
+    .form>button{
+        position: relative;
+        top: 30px;
+        right: 160px;
+      }
 }
