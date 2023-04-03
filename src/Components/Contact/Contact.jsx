@@ -40,14 +40,13 @@ const Contact = () => {
         </div>
         <div className="form">
           <form id="usrform">
-            <input type="text" name="name" id="" placeholder="name" />
-            <input type="email" name="email" id="" placeholder="email"  />
-            <input type="text" name="number" id="" placeholder="number"/>
-            <input type="text" name="subject" id="" placeholder="subject"/>
-            {/* <input type="text" name="message" id="" placeholder="Message" /> */}
-          </form>
-          <textarea name="comment" form="usrform" placeholder="Enter text here"></textarea>
+            <input type="text" name="name" id="" placeholder="Name" />
+            <input type="email" name="email" id="" placeholder="Email"  />
+            <input type="email" name="number" id="" placeholder="Phone Number (optional)"  />
 
+          </form>
+          <textarea name="comment" form="usrform" placeholder="Enter Your Message Here"></textarea>
+          <button type="submit"><b>Submit</b></button>
         </div>
       </div>
     </div>

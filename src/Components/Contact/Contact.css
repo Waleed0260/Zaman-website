@@ -73,33 +73,50 @@
 
 form{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    height: 160px;
+    grid-template-columns: repeat(1, 2fr);
+    height: 200px;
     width: 500px;
 }
 form>input{
     border-radius: 7px;
     height: 50px;
-    width: 17vw;
+    width: 100%;
     border: 1px solid aqua;
     display: flex;
     gap: 3rem;
 }
 textarea{
     height: 100px;
-    width: 490px;
-    /* text-align: left; */
-    /* vertical-align: top; */
+    width: 500px;
     border: 1px solid aqua;
     border-radius: 7px;
-
-
+    /* margin-top: -60px; */
 }
+textarea::placeholder {
+    padding-top: 10px;
+    /* color: rgb(255, 0, 0); */
+    font-style: italic;
+  }
 
+  .form>button{
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: #ff451b;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .form>button:hover{
+    background-color: #FFA500;
+    transition: 0.3s;
+  }
 
 @media screen and (max-width:1100px) {
     .about-contact{
-        height: 65rem;
+        height: 63rem;
         margin-bottom: 20px;
     }
     .contact-me{
@@ -119,7 +136,7 @@ textarea{
         width: 70vw;
     }
     textarea{
-        margin-top: 120px;
+        margin-top: 20px;
         width: 70vw;
     }
 }
@@ -128,6 +145,9 @@ textarea{
     .form{
         margin-left: 50px;
     }
+    .form>button{
+        background-color: rgb(255, 0, 0);
+      }
 }
 
 @media screen and (max-width:480px) {
@@ -137,10 +157,25 @@ textarea{
     .contact>h2{
         width: 300px;
     }
+    .form>button{
+        position: relative;
+        top: 30px;
+        right: 270px;
+      }
+
 }
 
 @media screen and (max-width:340px) {
     .form{
         margin-left: 20px;
     }
+    .form>button{
+        position: relative;
+        top: 30px;
+        right: 200px;
+      }
+}
+
+@media screen and (max-width:320px) {
+    
 }
