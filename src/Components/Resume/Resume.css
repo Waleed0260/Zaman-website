@@ -188,7 +188,7 @@
 
 @media screen and (max-width:1100px) {
     .about-resume{
-        height: 119rem;
+        height: 129rem;
     }
     /* .resume{
         margin-top: 450px;
@@ -214,10 +214,15 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .about-resume{
+        height: 135rem;
+    }
+}
 
 @media screen and (max-width:600px) {
     .about-resume{
-        height: 125rem;
+        height: 150rem;
     }
     .soft-skills>.office:nth-of-type(2), .office:nth-of-type(4){
         margin-left: 10vw;
@@ -228,19 +233,40 @@
         width: 35vw;
     }
     .about-resume{
-        height: 160rem;
+        height: 165rem;
     }
     .soft-skills>.office{
         height: 140px;
         width: 140px;
-
     }
     .soft-skills>.office:nth-of-type(2), .office:nth-of-type(4){
         margin-left: -1rem;
     }
 }
-@media screen and (max-width:415px){
+@media screen and (max-width:435px){
     .about-resume{
         height: 180rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .soft-skills{
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width:356px) {
+    .about-resume{
+        height: 190rem;
+    }
+    .soft-skills{
+        margin-left: -20px;
+    }
+    .soft-skills>.office:nth-of-type(2), .office:nth-of-type(4){
+        margin-left: 0.3rem;
+    }
+    .soft-skills>.office{
+        height: 110px;
+        width: 110px;
+        text-align: center;
     }
 }
