@@ -29,7 +29,6 @@ function App() {
         avatar={digitalmarketer}
         chatboxHeight={350}
         buttonClassName="floating-whatsapp-button"
-chatboxStyle={width: "100px"}
         />
       <Footer/>
 
