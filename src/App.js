@@ -28,6 +28,7 @@ function App() {
         chatMessage="Hello there! How can I help you ?"
         avatar={digitalmarketer}
         chatboxHeight={350}
+        buttonClassName="floating-whatsapp-button"
         />
       <Footer/>
 
