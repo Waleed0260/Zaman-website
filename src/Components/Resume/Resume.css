@@ -256,7 +256,7 @@
 }
 @media screen and (max-width:356px) {
     .about-resume{
-        height: 205rem;
+        height: 200rem;
     }
     .soft-skills{
         margin-left: -20px;
