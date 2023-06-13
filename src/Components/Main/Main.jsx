@@ -50,7 +50,7 @@ const Main = () => {
                 <span><a href="https://www.instagram.com/zamanthemarketer" target="blank"><FiInstagram/></a></span>
                 <span><a href="https://www.linkedin.com/in/zamanzahoor" target="blank"><BsLinkedin/></a></span>
                 <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ" target="blank"><BsYoutube/></a></span>
-                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"  style={{color: "red"}}><BsQuora/></a></span>
+                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"><BsQuora   style={{color: "red"}}/></a></span>
 
             </div>
         </div>
