@@ -1,11 +1,11 @@
 import React from "react";
 import "./Service.css";
-import { SiGoogleads } from "react-icons/si";
-import { FaMeta } from "react-icons/fa";
+import { TbFlower } from "react-icons/tb";
+import { TfiBag } from "react-icons/tfi";
 import { BsFillPersonCheckFill } from "react-icons/bs";
-import { HiOutlineSpeakerphone } from "react-icons/si";
-import {SiGoogleanalytics} from "react-icons/si"
-import {SiShopify} from "react-icons/si"
+import { TbPageBreak } from "react-icons/tb";
+import {BsBox} from "react-icons/bs"
+import {BsHandbag} from "react-icons/bs"
 import ServiceData from "./ServiceData";
 
 const Service = () => {
@@ -18,32 +18,32 @@ const Service = () => {
         </div>
         <div className="serv-content">
           <ServiceData
-            icon={<SiGoogleads />}
+            icon={<TbFlower />}
             title="Google ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
           <ServiceData
-            icon={<HiOutlineSpeakerphone />}
+            icon={<TfiBag />}
             title="Facebook ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<SiGoogleanalytics />}
+            icon={<BsFillPersonCheckFill />}
             title="Google analytics"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<FaMeta />}
+            icon={<TbPageBreak />}
             title="Meta ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<BsFillPersonCheckFill  />}
+            icon={<BsBox  />}
             title="Shopify"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<SiShopify />}
+            icon={<BsHandbag />}
             title="Experience Design"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
