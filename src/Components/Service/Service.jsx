@@ -1,6 +1,6 @@
 import React from "react";
 import "./Service.css";
-import { TbFlower } from "react-icons/tb";
+import { SiGoogleads } from "react-icons/tb";
 import { TfiBag } from "react-icons/tfi";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { TbPageBreak } from "react-icons/tb";
