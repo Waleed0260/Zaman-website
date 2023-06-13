@@ -28,6 +28,7 @@
     position: absolute;
     top: 120px;
     left: 40px;
+    z-index: -10;
 }
 
 
@@ -45,18 +46,23 @@
     position: absolute;
     top: 120px;
     left: 100px;
+    z-index: -10;
 }
 .Main-page>span:nth-of-type(3){
     color: rgb(149, 223, 120);
     position: absolute;
     top: 220px;
     left: 50px;
+        z-index: -10;
+
 }
 .Main-page>span:nth-of-type(4){
     color: rgb(149, 223, 120);
     position: absolute;
     top: 310px;
     left: 80px;
+        z-index: -10;
+
 }
 .Main-page>span>.small{
     height: 30px;
