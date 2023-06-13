@@ -95,7 +95,6 @@ textarea{
 textarea::placeholder {
     padding-top: 10px;
     /* color: rgb(255, 0, 0); */
-    font-style: italic;
   }
 
   .form>button{
