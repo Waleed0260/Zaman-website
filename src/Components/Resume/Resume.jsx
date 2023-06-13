@@ -167,6 +167,20 @@ const Resume = () => {
                     
 
                   </div>
+                  <div className="office">
+                    
+                      100%
+                    <b>Shopify</b>
+                    
+
+                  </div>
+                  <div className="office">
+                    
+                      100%
+                    <b>CRM Tools</b>
+                    
+
+                  </div>
                 </div>
               </div>
             </div>
