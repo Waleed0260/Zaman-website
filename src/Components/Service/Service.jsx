@@ -1,11 +1,11 @@
 import React from "react";
 import "./Service.css";
-import { TbFlower } from "react-icons/tb";
-import { TfiBag } from "react-icons/tfi";
+import { SiGoogleads } from "react-icons/si";
+import { FaMeta } from "react-icons/fa";
 import { BsFillPersonCheckFill } from "react-icons/bs";
-import { TbPageBreak } from "react-icons/tb";
-import {BsBox} from "react-icons/bs"
-import {BsHandbag} from "react-icons/bs"
+import { HiOutlineSpeakerphone } from "react-icons/si";
+import {SiGoogleanalytics} from "react-icons/si"
+import {SiShopify} from "react-icons/si"
 import ServiceData from "./ServiceData";
 
 const Service = () => {
@@ -18,32 +18,32 @@ const Service = () => {
         </div>
         <div className="serv-content">
           <ServiceData
-            icon={<BsBox />}
-            title="Wireframing"
+            icon={<SiGoogleads />}
+            title="Google ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
           <ServiceData
-            icon={<TbFlower />}
-            title="Prototype"
+            icon={<HiOutlineSpeakerphone />}
+            title="Facebook ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<TfiBag />}
-            title="UI Design"
+            icon={<SiGoogleanalytics />}
+            title="Google analytics"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<BsFillPersonCheckFill />}
-            title="Personal Creation"
+            icon={<FaMeta />}
+            title="Meta ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<BsHandbag />}
-            title="Case Study"
+            icon={<SiShopify />}
+            title="Shopify"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<TbPageBreak />}
+            icon={<Shopify />}
             title="Experience Design"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
