@@ -42,11 +42,11 @@ const Main = () => {
             </p>
             <div className="Main-icons">
                 <span><a href="https://www.facebook.com/profile.php?id=10008944707" target="blank"><FiFacebook/></a> </span>
-                <span><a href="https://twitter.com/The_Marketer_70"><BsTwitter/></a></span>
-                <span><a href="https://www.instagram.com/zamanthemarketer"><FiInstagram/></a></span>
-                <span><a href="https://www.linkedin.com/in/zamanzahoor"><BsLinkedin/></a></span>
-                <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ"><BsYoutube/></a></span>
-                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2"><BsQuora/></a></span>
+                <span><a href="https://twitter.com/The_Marketer_70" target="blank"><BsTwitter/></a></span>
+                <span><a href="https://www.instagram.com/zamanthemarketer" target="blank"><FiInstagram/></a></span>
+                <span><a href="https://www.linkedin.com/in/zamanzahoor" target="blank"><BsLinkedin/></a></span>
+                <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ" target="blank"><BsYoutube/></a></span>
+                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"><BsQuora/></a></span>
 
             </div>
         </div>
