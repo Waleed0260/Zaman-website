@@ -23,7 +23,7 @@ const Service = () => {
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
           <ServiceData
-            icon={<SiGoogleanalytics />}
+            icon={<TbSpeakerphone  />}
             title="Facebook ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
