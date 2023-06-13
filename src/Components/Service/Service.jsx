@@ -39,12 +39,12 @@ const Service = () => {
           />{" "}
           <ServiceData
             icon={<BsBox  />}
-            title="Shopify"
+            title="Dessign"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
             icon={<SiShopify />}
-            title="Experience Design"
+            title="Shopfi"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
         </div>
