@@ -2,7 +2,7 @@ import React from "react";
 import "./Service.css";
 import { SiGoogleads } from "react-icons/si";
 import { TbSpeakerphone } from "react-icons/tb";
-import { BsFillPersonCheckFill } from "react-icons/bs";
+import { SiGoogleanalytics } from "react-icons/si";
 import { TbPageBreak } from "react-icons/tb";
 import {BsBox} from "react-icons/bs"
 import {BsHandbag} from "react-icons/bs"
@@ -23,7 +23,7 @@ const Service = () => {
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
           <ServiceData
-            icon={<TbSpeakerphone />}
+            icon={<SiGoogleanalytics />}
             title="Facebook ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
