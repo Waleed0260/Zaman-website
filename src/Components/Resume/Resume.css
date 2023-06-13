@@ -216,13 +216,13 @@
 
 @media screen and (max-width:768px) {
     .about-resume{
-        height: 160rem;
+        height: 156rem;
     }
 }
 
 @media screen and (max-width:600px) {
     .about-resume{
-        height: 175rem;
+        height: 170rem;
     }
     .soft-skills>.office:nth-of-type(2), .office:nth-of-type(4), .office:nth-of-type(6){
         margin-left: 10vw;
@@ -233,7 +233,7 @@
         width: 35vw;
     }
     .about-resume{
-        height: 165rem;
+        height: 177rem;
     }
     .soft-skills>.office{
         height: 140px;
@@ -245,7 +245,7 @@
 }
 @media screen and (max-width:435px){
     .about-resume{
-        height: 220rem;
+        height: 190rem;
     }
 }
 
@@ -256,7 +256,7 @@
 }
 @media screen and (max-width:356px) {
     .about-resume{
-        height: 230rem;
+        height: 205rem;
     }
     .soft-skills{
         margin-left: -20px;
