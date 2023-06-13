@@ -141,28 +141,28 @@ const Resume = () => {
                 <div className="soft-skills">
                   <div className="office">
                     
-                      85%
+                      100%
                     <b>MS OFFICE</b>
                     
 
                   </div>
                   <div className="office">
                     
-                      85%
+                      100%
                     <b>Hootsuite</b>
                     
 
                   </div>
                   <div className="office">
                     
-                      85%
+                      100%
                     <b>Google analytics</b>
                     
 
                   </div>
                   <div className="office">
                     
-                      85%
+                      100%
                     <b>Mailchimp</b>
                     
 
