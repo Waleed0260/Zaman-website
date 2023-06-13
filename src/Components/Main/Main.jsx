@@ -41,7 +41,7 @@ const Main = () => {
 
             </p>
             <div className="Main-icons">
-                <span><a href="https://www.facebook.com/profile.php?id=10008944707"><FiFacebook/></a> </span>
+                <span><a href="https://www.facebook.com/profile.php?id=10008944707" target="blank"><FiFacebook/></a> </span>
                 <span><a href="https://twitter.com/The_Marketer_70"><BsTwitter/></a></span>
                 <span><a href="https://www.instagram.com/zamanthemarketer"><FiInstagram/></a></span>
                 <span><a href="https://www.linkedin.com/in/zamanzahoor"><BsLinkedin/></a></span>
