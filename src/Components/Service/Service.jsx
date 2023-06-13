@@ -43,7 +43,7 @@ const Service = () => {
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<Shopify />}
+            icon={<SiShopify />}
             title="Experience Design"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
