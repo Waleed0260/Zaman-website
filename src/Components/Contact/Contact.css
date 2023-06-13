@@ -96,6 +96,13 @@ textarea::placeholder {
     padding-top: 10px;
     /* color: rgb(255, 0, 0); */
   }
+  input::placeholder,
+  textarea::placeholder {
+    /* Your desired font styles */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #999999;
+  }
 
   .form>button{
     margin-top: 10px;
