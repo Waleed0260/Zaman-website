@@ -18,7 +18,7 @@ const Service = () => {
         </div>
         <div className="serv-content">
           <ServiceData
-            icon={<TbFlower />}
+            icon={<SiGoogleads />}
             title="Google ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
