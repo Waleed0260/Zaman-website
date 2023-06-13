@@ -10,6 +10,10 @@ import {RxCross1} from "react-icons/rx"
 import {BsQuora} from "react-icons/bs"
 import MyResume from "../../images/MyResume.pdf"
 
+  const myStyles = {
+    backgroundImage: "linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)",
+  };
+
 const Main = () => {
   return (
     <>
@@ -46,7 +50,7 @@ const Main = () => {
                 <span><a href="https://www.instagram.com/zamanthemarketer" target="blank"><FiInstagram/></a></span>
                 <span><a href="https://www.linkedin.com/in/zamanzahoor" target="blank"><BsLinkedin/></a></span>
                 <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ" target="blank"><BsYoutube/></a></span>
-                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"><BsQuora/></a></span>
+                <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"  style={{color: "red"}}><BsQuora/></a></span>
 
             </div>
         </div>
