@@ -157,7 +157,7 @@ const handleContact = () => {
       <div className="about-page">
       {state.test && <Testimonial/>}
       </div>          
-      <Heading icons={<FaPager/>} text="Blog" click={handleBlog}/>
+      <Heading icons={<FaPager/>} text="Blogs & Research" click={handleBlog}/>
       <div className="about-page">
       {state.blog && <Blog/>}
       </div>          
