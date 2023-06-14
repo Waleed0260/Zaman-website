@@ -171,7 +171,7 @@
   .Main-left{
     display: flex;
     flex-direction: column;
-    height: 20rem;
+    height: 25rem;
     z-index: 1000;
   }
 
