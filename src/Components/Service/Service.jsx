@@ -1,10 +1,10 @@
 import React from "react";
 import "./Service.css";
 import { SiGoogleads } from "react-icons/si";
-import { TbSpeakerphone } from "react-icons/tb";
-import { BsFillPersonCheckFill } from "react-icons/bs";
-import { TbPageBreak } from "react-icons/tb";
-import {BsBox} from "react-icons/bs"
+import { BsMeta } from "react-icons/bs";
+import { SiGoogleanalytics } from "react-icons/si";
+import { SiGoogletagmanager } from "react-icons/si";
+import {SiGooglemarketingplatform} from "react-icons/si"
 import {SiShopify} from "react-icons/si"
 import ServiceData from "./ServiceData";
 
@@ -23,23 +23,23 @@ const Service = () => {
             para="Web development is the building and maintenance of websites. it's the work that..."
           />
           <ServiceData
-            icon={<TbSpeakerphone  />}
+            icon={<BsMeta  />}
             title="Facebook ads"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<BsFillPersonCheckFill />}
+            icon={<SiGoogleanalytics />}
             title="Google analytics"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<TbPageBreak />}
-            title="Meta ads"
+            icon={<SiGoogletagmanager />}
+            title="Google tag manager"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
-            icon={<BsBox  />}
-            title="Dessign"
+            icon={<SiGooglemarketingplatform  />}
+            title="Market Research"
             para="Web development is the building and maintenance of websites. it's the work that..."
           />{" "}
           <ServiceData
