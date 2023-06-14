@@ -172,6 +172,7 @@
     display: flex;
     flex-direction: column;
     height: 20rem;
+    z-index: 1000;
   }
 
   
@@ -185,7 +186,6 @@
     font-family: 'Poppins', sans-serif;
     width: 150px;
     margin-top: 10px;
-
   }
  .Main-left>p{
     font-family: 'Poppins', sans-serif;
@@ -193,6 +193,22 @@
     color: rgb(99, 96, 96);
     width: 500px;
     font-size: bold;
+  }
+  .Main-left>.concul{
+    width: 250px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    background-color: #ff451b;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .Main-left>.concul:hover{
+    background-color: orange;
+    transition: 0.3s;
   }
 
   .Main-icons{
