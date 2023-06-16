@@ -19,14 +19,14 @@ const Testimonial = () => {
       heading: "CEO , Felixhawk",
       href: "linkedin.com/company/felix-hawk/",
       review:
-        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. Their ability to consistently & effectively manage our social media channels has exceeded our expectations. Zaman Zahoor is an invaluable asset to our team, and we highly recommend their expertise to any company looking to elevate their social media strategy.- CEO , Felixhawk.",
+        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing social media strategically. He is an asset to our team, and we recommend to any company looking to elevate his social media strategy.",
     },
     {
       img: link,
       heading: "CINDY",
       href: "https://www.linkedin.com/in/cindypregita/",
       review:
-        "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing, and I wholeheartedly endorse their skills and expertise. - [CINDY]",
+        "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing.
     },
     {
       img: elo,
