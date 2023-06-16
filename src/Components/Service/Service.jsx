@@ -20,32 +20,32 @@ const Service = () => {
           <ServiceData
             icon={<SiGoogleads />}
             title="Google ads"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Drive targeted traffic and boost conversions with my specialized Google Ads services."
           />
           <ServiceData
             icon={<BsMeta  />}
             title="Facebook ads"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Reach your target audience effectively and achieve your marketing goals with our specialized Facebook Ads services."
           />{" "}
           <ServiceData
             icon={<SiGoogleanalytics />}
             title="Google analytics"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Unlock actionable insights and optimize your marketing strategies with our expert marketing analytics services powered by Google Analytics."
           />{" "}
           <ServiceData
             icon={<SiGoogletagmanager />}
             title="Google tag manager"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Simplify your conversion tracking process with my streamlined Google Tag Manager solutions."
           />{" "}
           <ServiceData
             icon={<SiGooglemarketingplatform  />}
             title="Market Research"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Understand your target audience better through my comprehensive market research and customer persona solutions."
           />{" "}
           <ServiceData
             icon={<SiShopify />}
             title="Shopify"
-            para="Web development is the building and maintenance of websites. it's the work that..."
+            para="Take your business to the next level with Shopify by helping you build, optimize, and scale your online store for success."
           />
         </div>
       </div>
