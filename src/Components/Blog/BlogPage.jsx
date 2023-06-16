@@ -34,8 +34,8 @@ const BlogPage = ({open, name, title, img, onClose}) => {
 
         <div className="BlogPage">
         <img src={img} alt="" />
-        <p>{name}</p>
         <h3>{title}</h3>
+        <p>{name}</p>
 
         </div>
       </div>
