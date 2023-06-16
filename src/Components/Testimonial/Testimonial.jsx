@@ -14,15 +14,15 @@ const Testimonial = () => {
   const clients = [
     {
       img: blog1,
-      heading: "REACT ADMIN-PANEL",
-      href: "https://adminpanel-c7t.pages.dev/",
+      heading: "CEO of FELIX HAWK",
+      href: "https://www.linkedin.com/company/felix-hawk/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BWGSVVeWSQwe7s6QCvxrnsw%3D%3D",
       review:
         "We are incredibly fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting in a significant increase in engagement and brand awareness. Their ability to consistently deliver high-quality content and effectively manage our social media channels has exceeded our expectations. Zaman Zahoor is an invaluable asset to our team, and we highly recommend their expertise to any company looking to elevate their social media strategy. [Felix-Hawk]",
     },
     {
       img: aboutimg,
-      heading: "REACT RECIPE-APP",
-      href: "https://waleed0260.github.io/my-recipe-app/",
+      heading: "Product Marketing Manager at google",
+      href: "https://www.linkedin.com/in/cindypregita/",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
     },
@@ -35,8 +35,8 @@ const Testimonial = () => {
     },
     {
       img: aboutimg,
-      heading: "REACT RECIPE-APP",
-      href: "https://waleed0260.github.io/my-recipe-app/",
+      heading: "CEO of ELO",
+      href: "https://www.exportleftovers.com/",
       review:
 "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. Their deep knowledge and strategic approach to Google Ads have significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads." - [CEO of ELO],
     },
