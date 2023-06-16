@@ -149,7 +149,7 @@ const handleContact = () => {
       {state.resume && <Resume/>}
       </div>     
        <Heading icons={<TfiBag/>} text="Portfolio" />
-      <Heading icons={<FiSettings/>} text="Service" click={handleServ}/>
+      <Heading icons={<FiSettings/>} text="Services" click={handleServ}/>
       <div className="about-page">
       {state.serv && <Service/>}
       </div>
