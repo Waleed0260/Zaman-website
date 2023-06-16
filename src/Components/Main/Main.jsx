@@ -38,7 +38,7 @@ const Main = () => {
             <b>I'm</b>
             <h1>Zaman Zahoor</h1>
             <p>
-            Hi I am Zaman An Innovative digital marketing coordinator | Google and Facebook ads media buyer
+            An Innovative digital marketing coordinator | Google and Facebook ads media buyer
             </p>
             <div className="Main-icons">
                 <span><a href="https://www.facebook.com/profile.php?id=10008944707" target="blank"><FiFacebook/></a> </span>
