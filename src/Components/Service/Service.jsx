@@ -30,7 +30,7 @@ const Service = () => {
           <ServiceData
             icon={<SiGoogleanalytics />}
             title="Google analytics"
-            para="Unlock actionable insights and optimize your marketing strategies with analytics services using Google Analytics."
+            para="Unlock actionable insights and optimize your marketing strategies using Google Analytics services."
           />{" "}
           <ServiceData
             icon={<SiGoogletagmanager />}
