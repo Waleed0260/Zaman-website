@@ -30,10 +30,10 @@ const Testimonial = () => {
     },
     {
       img: elo,
-      heading: "REACT ADMIN-PANEL",
-      href: "https://adminpanel-c7t.pages.dev/",
+      heading: "CEO of ELO",
+      href: "https://www.exportleftovers.com/",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
+        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. Their deep knowledge and strategic approach to Google Ads have significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads. -CEO of ELO",
     },
     {
       img: felix,
