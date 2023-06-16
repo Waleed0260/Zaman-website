@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import BlogPage from "./BlogPage";
 
-const BlogArticles = ({bold, heading, image}) => {
+const BlogArticles = ({bold, heading, image, details}) => {
     const [blogPage, setBlogPage] = useState(false);
 
 
@@ -12,7 +12,7 @@ const BlogArticles = ({bold, heading, image}) => {
         <b>{bold}</b>
         <h3>{heading}</h3>
       </div>
-      <BlogPage open={blogPage} name={bold} title={heading} img={image} onClose={()=> setBlogPage(false)}/>
+      <BlogPage open={blogPage} name={bold} para={details} img={image} onClose={()=> setBlogPage(false)}/>
     </>
   );
 };
