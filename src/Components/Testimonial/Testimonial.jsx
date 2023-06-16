@@ -40,7 +40,7 @@ const Testimonial = () => {
       heading: "REACT RECIPE-APP",
       href: "https://waleed0260.github.io/my-recipe-app/",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
+        "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. Their ability to grasp complex concepts and apply them effectively in real-world scenarios is commendable. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing, and I wholeheartedly endorse their skills and expertise. - [CINDY]",
     },
   ];
   return (
