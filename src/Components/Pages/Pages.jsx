@@ -11,7 +11,7 @@ import Resume from '../Resume/Resume'
 import Contact from '../Contact/Contact'
 import Blog from '../Blog/Blog'
 import Testimonial from '../Testimonial/Testimonial'
-import Services from '../Service/Service'
+import Service from '../Service/Service'
 
 const initialState = {
   about: false,
