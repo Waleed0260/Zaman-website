@@ -25,7 +25,7 @@ const Service = () => {
           <ServiceData
             icon={<BsMeta  />}
             title="Facebook ads"
-            para="Reach your target audience effectively and achieve your marketing goals with our specialized Facebook Ads services."
+            para="Reach your target audience effectively and fulfill your marketing goals with our specialized FB Ads services."
           />{" "}
           <ServiceData
             icon={<SiGoogleanalytics />}
