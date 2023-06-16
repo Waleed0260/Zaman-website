@@ -147,7 +147,7 @@ const handleContact = () => {
       <Heading icons={<AiFillContacts/>} text="Resume" click={handleResume}/>
       <div className="about-page">
       {state.resume && <Resume/>}
-      </div>     
+      </div>
        <Heading icons={<TfiBag/>} text="Portfolio" />
       <Heading icons={<FiSettings/>} text="Services" click={handleServ}/>
       <div className="about-page">
