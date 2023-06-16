@@ -16,7 +16,7 @@ const Blog = () => {
           <h2>Latest tips, tricks and updates</h2>
         </div>
         <div className="blog-page">
-          <BlogArticles bold="Inclusive Marketing" heading="Inclusive marketing is an approach that aims to create..." image={gads} details="Inclusive marketing is an approach that aims to create marketing campaigns and strategies that resonate with diverse audiences, including people of different backgrounds, cultures, abilities, genders, and identities. It involves promoting inclusivity, representation, and cultural sensitivity in marketing communications.
+          <BlogArticles bold="Inclusive Marketing" heading="Inclusive marketing is an approach that aims to create..." image={per} details="Inclusive marketing is an approach that aims to create marketing campaigns and strategies that resonate with diverse audiences, including people of different backgrounds, cultures, abilities, genders, and identities. It involves promoting inclusivity, representation, and cultural sensitivity in marketing communications.
 
 The benefits of inclusive marketing are:
 Increased brand loyalty: Inclusive marketing demonstrates a commitment to diversity and inclusivity, which can foster a sense of belonging and loyalty among diverse consumer groups. When individuals see themselves represented in marketing materials, they are more likely to connect with the brand on a deeper level.
@@ -27,7 +27,7 @@ To effectively use inclusive marketing, businesses can take the following steps:
 
 Audience research and segmentation: Understand your target audience, their demographics, interests, and cultural nuances. Segment your audience to identify diverse groups and their unique needs.
 Representation and imagery: Ensure that your marketing materials, such as advertisements, visuals, and website content, feature diverse"/>
-          <BlogArticles bold="Google ads optimization" heading="Optimizing your Google Ads campaigns is crucial for maximizing..." image={per} details="Optimizing your Google Ads campaigns is crucial for maximizing your ad performance and achieving your desired outcomes.
+          <BlogArticles bold="Google ads optimization" heading="Optimizing your Google Ads campaigns is crucial for maximizing..." image={gads} details="Optimizing your Google Ads campaigns is crucial for maximizing your ad performance and achieving your desired outcomes.
 Tips for successful Google Ads optimization:
 
 1. Keyword Research: Conduct thorough keyword research to identify relevant and high-performing keywords. Use a mix of broad, exact, and long-tail keywords to capture different user intents and improve targeting.
