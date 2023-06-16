@@ -2,7 +2,7 @@ import React from 'react'
 import "./BlogPage.css"
 import {ImCross} from "react-icons/im"
 
-const BlogPage = ({open, name, details, img, onClose}) => {
+const BlogPage = ({open, name, para, img, onClose}) => {
     const OVERLAY_STYLES = {
         position: "fixed",
         left: 0,
@@ -34,7 +34,7 @@ const BlogPage = ({open, name, details, img, onClose}) => {
 
         <div className="BlogPage">
         <h3>{name}</h3>
-        <p>{details}</p>
+        <p>{para}</p>
 
         </div>
       </div>
