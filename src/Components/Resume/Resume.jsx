@@ -20,20 +20,8 @@ const Resume = () => {
                 Professional Summary
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                illo sed atque fugit. Exercitationem doloribus optio deleniti,
-                laboriosam ipsam tenetur vitae doloremque eos, rem sed numquam
-                repellat libero sunt sit natus quasi suscipit praesentium nihil
-                pariatur quos facilis aliquam? Reprehenderit, dolores quidem?
-                Unde dolor placeat, maiores laborum est sed! Accusamus.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ad
-                quaerat asperiores. Ea amet quaerat totam nobis non rerum
-                provident porro magni autem nostrum veritatis distinctio quidem
-                iure soluta quia harum doloremque quisquam explicabo nisi, sed
-                placeat ducimus sequi? Aliquam et laboriosam voluptatibus
-                voluptate, dolorem nesciunt exercitationem officiis quos
-                mollitia!
+               Result-driven digital marketer and  Proficient in Google Ads, Facebook Ads, social media marketing, and marketing analytics. Possesses a strong understanding of driving targeted traffic, optimizing ad campaigns, and analyzing marketing data.  Great exposure in coordinating and executing digital marketing campaigns to drive brand awareness and increase conversions. Experienced in leveraging data analytics to optimize campaigns and enhance ROI.  A proactive learner with a passion for staying updated on industry trends and best practices. Excellent communication and teamwork abilities, combined with a detail-oriented and analytical mindset. Eager to contribute knowledge and gain practical experience in a dynamic marketing environment.
+
               </p>
             </div>
             <div className="prof-experience">
