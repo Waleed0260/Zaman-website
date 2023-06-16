@@ -40,7 +40,8 @@ const Service = () => {
           <ServiceData
             icon={<SiGooglemarketingplatform  />}
             title="Market Research"
-            para="Understand your target audience better through my comprehensive market research and customer persona solutions."
+            para="
+Understand your target audience better through my vast market research and customer persona ideas."
           />{" "}
           <ServiceData
             icon={<SiShopify />}
