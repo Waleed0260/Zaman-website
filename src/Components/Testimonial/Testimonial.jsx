@@ -33,11 +33,11 @@ const Testimonial = () => {
       heading: "CEO of ELO",
       href: "https://www.exportleftovers.com/",
       review:
-        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. Their deep knowledge and strategic approach to Google Ads have significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads. -CEO of ELO",
+        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads. -CEO of ELO",
     },
     {
       img: felix,
-      heading: "REACT RECIPE-APP",
+      heading: "CINDY",
       href: "https://waleed0260.github.io/my-recipe-app/",
       review:
         "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. Their ability to grasp complex concepts and apply them effectively in real-world scenarios is commendable. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing, and I wholeheartedly endorse their skills and expertise. - [CINDY]",
