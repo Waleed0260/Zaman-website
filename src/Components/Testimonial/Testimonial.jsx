@@ -19,21 +19,21 @@ const Testimonial = () => {
       heading: "CEO , Felixhawk",
       href: "linkedin.com/company/felix-hawk/",
       review:
-        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing social media strategically. He is an asset to our team, and we recommend to any company looking to elevate his social media strategy.",
+        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing social media strategically. He is an asset to our team, and highly recommended.",
     },
     {
       img: link,
       heading: "CINDY",
       href: "https://www.linkedin.com/in/cindypregita/",
       review:
-        "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing.
+        "I am incredibly proud of Zaman Zahoor in growth & accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of Digital marketing are impressive. Zaman consistently exceeded expectations, tackling every task with professionalism and creativity. He has a bright future ahead in digital marketing.
     },
     {
       img: elo,
       heading: "CEO of ELO",
       href: "https://www.exportleftovers.com/",
       review:
-        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads. -CEO of ELO",
+        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads.",
     },
    
   ];
