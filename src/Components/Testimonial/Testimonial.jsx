@@ -17,7 +17,7 @@ const Testimonial = () => {
       heading: "REACT ADMIN-PANEL",
       href: "https://adminpanel-c7t.pages.dev/",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eligendi reiciendis incidunt, eos nam aut architecto quasi voluptates facilis nesciunt dolor qui in quibusdam enim optio amet illo modi consequatur, provident placeat a! Ullam, nisi. Quisquam adipisci nulla quaerat sed.",
+        "We are incredibly fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting in a significant increase in engagement and brand awareness. Their ability to consistently deliver high-quality content and effectively manage our social media channels has exceeded our expectations. Zaman Zahoor is an invaluable asset to our team, and we highly recommend their expertise to any company looking to elevate their social media strategy. [Felix-Hawk]",
     },
     {
       img: aboutimg,
@@ -31,14 +31,14 @@ const Testimonial = () => {
       heading: "REACT ADMIN-PANEL",
       href: "https://adminpanel-c7t.pages.dev/",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
+        "I am incredibly proud of Zaman Zahoor is growth and accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of digital marketing have been truly impressive. Throughout the course, Zaman Zahoor consistently exceeded expectations, tackling every task with a high level of professionalism and creativity. Their ability to grasp complex concepts and apply them effectively in real-world scenarios is commendable. I have no doubt that Zaman Zahoor has a bright future ahead in the field of digital marketing, and I wholeheartedly endorse their skills and expertise." - [CINDY].",
     },
     {
       img: aboutimg,
       heading: "REACT RECIPE-APP",
       href: "https://waleed0260.github.io/my-recipe-app/",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
+"Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. Their deep knowledge and strategic approach to Google Ads have significantly increased our online visibility, driving a substantial boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads." - [CEO of ELO],
     },
   ];
   return (
