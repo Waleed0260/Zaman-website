@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Testimonial.css"
-import blog1 from "../../images/blog1.jpg"
-import aboutimg from "../../images/aboutimg.jpg"
+import felix from "../../images/felix.jpeg"
+import link from "../../images/link.jpeg"
+import elo from "../../images/elo.jpeg"
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,28 +15,28 @@ import "swiper/css/pagination";
 const Testimonial = () => {
   const clients = [
     {
-      img: blog1,
+      img: felix,
       heading: "REACT ADMIN-PANEL",
       href: "https://adminpanel-c7t.pages.dev/",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eligendi reiciendis incidunt, eos nam aut architecto quasi voluptates facilis nesciunt dolor qui in quibusdam enim optio amet illo modi consequatur, provident placeat a! Ullam, nisi. Quisquam adipisci nulla quaerat sed.",
     },
     {
-      img: aboutimg,
+      img: link,
       heading: "REACT RECIPE-APP",
       href: "https://waleed0260.github.io/my-recipe-app/",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
     },
     {
-      img: blog1,
+      img: elo,
       heading: "REACT ADMIN-PANEL",
       href: "https://adminpanel-c7t.pages.dev/",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eveniet in dicta veniam optio expedita nostrum obcaecati similique quas architecto voluptates, voluptate sequi sapiente quod fugiat veritatis ipsam possimus voluptatibus.",
     },
     {
-      img: aboutimg,
+      img: felix,
       heading: "REACT RECIPE-APP",
       href: "https://waleed0260.github.io/my-recipe-app/",
       review:
