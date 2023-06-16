@@ -33,9 +33,9 @@ const BlogPage = ({open, name, title, img, onClose}) => {
       <div style={MODAL_STYLES}>
 
         <div className="BlogPage">
-        <img src={img} alt="" />
-        <h3>{title}</h3>
-        <p>{name}</p>
+//         <img src={img} alt="" />
+        <h3>{name}</h3>
+        <p>{title}</p>
 
         </div>
       </div>
