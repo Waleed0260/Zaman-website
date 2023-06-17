@@ -19,7 +19,7 @@ const Testimonial = () => {
       heading: "CEO , Felixhawk",
       href: "linkedin.com/company/felix-hawk/",
       review:
-        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing social media strategically. He is an asset to our team, and highly recommended.",
+        "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing Social media strategically. He is an asset to our team, and highly recommended.",
     },
     {
       img: link,
