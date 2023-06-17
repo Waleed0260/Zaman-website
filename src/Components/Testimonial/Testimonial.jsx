@@ -17,21 +17,18 @@ const Testimonial = () => {
     {
       img: felix,
       heading: "CEO , Felixhawk",
-      href: "linkedin.com/company/felix-hawk/",
       review:
         "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing Social media strategically. He is an asset to our team, and highly recommended.",
     },
     {
       img: link,
       heading: "CINDY (Google)",
-      href: "https://www.linkedin.com/in/cindypregita/",
       review:
         "I am incredibly proud of Zaman Zahoor in growth & accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of Digital marketing are impressive. Zaman consistently exceeded expectations, tackling every task with professionalism and creativity. He has a bright future ahead in digital marketing.
     },
     {
       img: elo,
       heading: "CEO of ELO",
-      href: "https://www.exportleftovers.com/",
       review:
         "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads.",
     },
