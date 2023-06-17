@@ -16,7 +16,7 @@ const Testimonial = () => {
   const clients = [
     {
       img: felix,
-      heading: "CEO , Felixhawk",
+      heading: "CEO, Felixhawk",
       review:
         "We are fortunate to have Zaman Zahoor as our social media manager and content creator. Their creative vision and strategic approach have transformed our online presence, resulting increase in engagement and brand awareness. They exceeded our expectations by managing Social media strategically. He is an asset to our team, and highly recommended.",
     },
