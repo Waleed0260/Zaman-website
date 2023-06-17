@@ -24,7 +24,7 @@ const Testimonial = () => {
       img: link,
       heading: "CINDY (Google)",
       review:
-        "I am incredibly proud of Zaman Zahoor in growth & accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of Digital marketing are impressive. Zaman consistently exceeded expectations, tackling every task with professionalism and creativity. He has a bright future ahead in digital marketing.
+        "I am incredibly proud of Zaman Zahoor in growth & accomplishments as a digital marketing learner. Their dedication, enthusiasm, and commitment to mastering the various aspects of Digital marketing are impressive. Zaman consistently exceeded expectations, tackling every task with professionalism and creativity. He has a bright future ahead in digital marketing."
     },
     {
       img: elo,
