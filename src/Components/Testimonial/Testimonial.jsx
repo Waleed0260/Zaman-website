@@ -30,7 +30,7 @@ const Testimonial = () => {
       img: elo,
       heading: "CEO of ELO",
       review:
-        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, boost in traffic and conversions. Their expertise and dedication have proven invaluable, and we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads.",
+        "Working with Zaman Zahoor as our Google Ads expert has been a game-changer for our e-commerce business. They significantly increased our online visibility, boost in traffic & conversions. Their expertise and dedication have proven invaluable, & we highly recommend Zaman Zahoor to any company looking to achieve remarkable results with Google Ads.",
     },
    
   ];
