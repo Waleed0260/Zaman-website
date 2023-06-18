@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     /* margin-left: 10px; */
-    text-align: center;
+    text-align: left;
 
 }
 .testo>.image{
@@ -67,7 +67,7 @@
 
 .testimonial .swiper {
     width: 50rem;
-    height: 31rem;
+    height: 33rem;
     margin-top: -60px;
 }
 
