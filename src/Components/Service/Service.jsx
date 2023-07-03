@@ -34,7 +34,7 @@ const Service = () => {
           />{" "}
           <ServiceData
             icon={<SiGoogletagmanager />}
-            title="Google tag manager"
+            title="Conversion Tracking"
             para="Simplify your conversion tracking process with my streamlined Google Tag Manager solutions."
           />{" "}
           <ServiceData
