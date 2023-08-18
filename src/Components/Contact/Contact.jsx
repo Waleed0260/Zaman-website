@@ -2,7 +2,7 @@ import React, {useRef, useState} from "react";
 import "./Contact.css";
 import {CiMobile4} from "react-icons/ci"
 import {AiOutlineMail} from "react-icons/ai"
-import {GrLocation} from "react-icons/gr"
+import {FaLocationDot} from "react-icons/fa"
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
 
                 <div className="first">
-                    <span><TfiLocationPin style={{color: "white"}}/></span>
+                    <span><FaLocationDot style={{color: "white"}}/></span>
                     <div>
                         <b>Address</b>
                         <p style={{marginTop: "5px"}}>Bristol UK</p>
