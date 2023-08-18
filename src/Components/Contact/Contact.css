@@ -84,6 +84,7 @@ form>input{
     border: 1px solid aqua;
     display: flex;
     gap: 3rem;
+    padding: 0.8rem;
 }
 textarea{
     height: 100px;
@@ -92,10 +93,9 @@ textarea{
     border-radius: 7px;
     /* margin-top: -60px; */
 }
-textarea::placeholder {
+/* textarea::placeholder {
     padding-top: 10px;
-    /* color: rgb(255, 0, 0); */
-  }
+  } */
   input::placeholder,
   textarea::placeholder {
     /* Your desired font styles */
