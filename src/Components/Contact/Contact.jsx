@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
 
                 <div className="first">
-                    <span><GrLocation style={{color: "white"}}/></span>
+                    <span><TfiLocationPin style={{color: "white"}}/></span>
                     <div>
                         <b>Address</b>
                         <p style={{marginTop: "5px"}}>Bristol UK</p>
