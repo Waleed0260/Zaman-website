@@ -20,7 +20,7 @@ const Resume = () => {
                 Professional Summary
               </h2>
               <p>
-               Result-driven digital marketer and  Proficient in Google Ads, Facebook Ads, social media marketing, and marketing analytics. Possesses a strong understanding of driving targeted traffic, optimizing ad campaigns, and analyzing marketing data.  Great exposure in coordinating and executing digital marketing campaigns to drive brand awareness and increase conversions. Experienced in leveraging data analytics to optimize campaigns and enhance ROI.  A proactive learner with a passion for staying updated on industry trends and best practices. Excellent communication and teamwork abilities, combined with a detail-oriented and analytical mindset. Eager to contribute knowledge and gain practical experience in a dynamic marketing environment.
+              Goal-oriented digital marketer with a strong passion for optimizing campaigns and driving results. Proficient in <b>Google Ads</b>, Facebook Ads, social media and email marketing, and marketing analytics. Experienced in leveraging data analytics, <b>media planning, customer personae,</b> and <b>marketing funnels</b> to achieve measurable success in digital campaigns. Actively stays updated on industry trends and best practices, with a keen interest in <b>using AI and prompt engineering</b> to enhance digital marketing strategies. Looking for an internship opportunity to further excel and make a positive impact in digital marketing.
 
               </p>
             </div>
@@ -34,7 +34,7 @@ const Resume = () => {
               <div className="felixhawk">
                 <b>Felixhawk.com</b>
                 <p>
-                  Social Media manager & Website Designer / Content Producer
+                Marketing Assistant 
                 </p>
                 <ul>
                   <li>
@@ -45,30 +45,35 @@ const Resume = () => {
                     Support the marketing team on 20+ campaigns across five
                     marketing channels
                   </li>
+                  <li>
+                    {" "}
+                    Conduct market research to identify trending content
+
+                  </li>
+                  <li>
+                    {" "}
+                    Develop content for social media posts and manage website content
+
+                  </li>
+                  <li>
+                    {" "}
+                    Create monthly social media calendars and publish posts 
+
+                  </li>
                 </ul>
               </div>
               <div className="felixhawk">
                 <b>TAJI Digital Solutions</b>
-                <p>Shopify Store Designer and Analyst</p>
+                <p >E-commerce  Analyst</p>
                 <ul>
-                  <li>Create Shopify stores with senior developers</li>
+                  <li>Design Shopify stores </li>
                   <li>
-                    Manage/upload and edit product/category content, and product
-                    listings that will be published on Shopify websites
+                  Manage/upload and edit product/category content, images, prices, variants, and product listings that will be published on Shopify websites.
+
                   </li>
                 </ul>
               </div>
-              <div className="felixhawk">
-                <b>Bukhari Developers</b>
-                <p>WordPress Designer</p>
-                <ul>
-                  <li>Convert web designs to WordPress Using Elementor Pro</li>
-                  <li>
-                    Building the front end of the website and optimizing website
-                    speed using Yoast SEO.
-                  </li>
-                </ul>
-              </div>
+            
             </div>
           </div>
           <div className="resume-right">
@@ -81,7 +86,7 @@ const Resume = () => {
             <div className="skills">
               <div className="add">
                 <div className="sk-name">
-                  <p>Facebook ads</p>
+                  <p>Google ads</p>
                   <p>100%</p>
                 </div>
                 <div className="sk-lines">
@@ -91,7 +96,7 @@ const Resume = () => {
               </div>
               <div className="add">
                 <div className="sk-name">
-                  <p>Google ads</p>
+                  <p>Facebook ads</p>
                   <p>100%</p>
                 </div>
                 <div className="sk-lines">

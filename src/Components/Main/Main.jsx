@@ -38,7 +38,7 @@ const Main = () => {
             <b>I'm</b>
             <h1>Zaman Zahoor</h1>
             <p>
-            An Innovative digital marketing coordinator | Google and Facebook ads media buyer
+            Proactive Digital Marketer specialized in Google Ads, ready to turn potential into performance. Explore my journey and let's build success together.
             </p>
             <div className="Main-icons">
                 <span><a href="https://www.facebook.com/profile.php?id=10008944707" target="blank"><FiFacebook/></a> </span>
@@ -49,7 +49,7 @@ const Main = () => {
                 <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"><BsQuora/></a></span>
             </div>
             {/* <button className='concul'> </button> */}
-            <div id="root"></div>
+            <div id="root" style={{height:"40px", width: "200px"}}></div>
             
             <PopupButton
         url="https://calendly.com/zamanzahoor/free-consultation-to-boost-your-business?month=2023-06"

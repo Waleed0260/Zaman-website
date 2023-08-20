@@ -12,10 +12,12 @@ import Contact from '../Contact/Contact'
 import Blog from '../Blog/Blog'
 import Testimonial from '../Testimonial/Testimonial'
 import Service from '../Service/Service'
+import Projects from '../Projects/Projects'
 
 const initialState = {
   about: false,
   resume: false,
+  projects: false,
   contact: false,
   blog: false,
   test: false,
@@ -37,6 +39,11 @@ const reducer = (state, action) => {
       return {
         ...initialState,
         resume: true,
+      };
+      case "PROJECTS":
+      return {
+        ...initialState,
+        projects: true,
       };
     case "CONTACT":
       return {
@@ -96,6 +103,16 @@ const handleResume = () => {
   }
 };
 
+const handleProjects = () => {
+  setClicked(prevCount => prevCount + 1);
+  if (click % 2 === 0){
+  dispatch({ type: "PROJECTS" });
+  } 
+  else{
+    dispatch({type: "INITIAL"})
+  }
+};
+
 const handleServ = () => {
   setCountResume(prevCount => prevCount + 1);
   if (countResume % 2 === 0){
@@ -147,6 +164,10 @@ const handleContact = () => {
       <Heading icons={<AiFillContacts/>} text="Resume" click={handleResume}/>
       <div className="about-page">
       {state.resume && <Resume/>}
+      </div>
+      <Heading icons={<AiFillContacts/>} text="Projects" click={handleProjects}/>
+      <div className="about-page">
+      {state.projects && <Projects/>}
       </div>
       <Heading icons={<FiSettings/>} text="Services" click={handleServ}/>
       <div className="about-page">
