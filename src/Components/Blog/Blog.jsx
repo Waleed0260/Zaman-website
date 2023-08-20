@@ -9,7 +9,7 @@ import fads from "../../images/fads.png";
 const Blog = () => {
 
   return (
-    <div className="about-me about-blog">
+    <div className="about-me">
       <div className="blog">
         <div className="blog-head">
           <b>Blog</b>

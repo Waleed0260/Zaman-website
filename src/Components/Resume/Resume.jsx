@@ -4,7 +4,7 @@ import { BsRecordCircle } from "react-icons/bs";
 
 const Resume = () => {
   return (
-    <div className="about-me about-resume">
+    <div className="about-me">
       <div className="resume">
         <div className="resume-head">
           <b>Resume</b>
@@ -129,13 +129,20 @@ const Resume = () => {
                   <span>
                     <BsRecordCircle />
                   </span>
-                  Core Skills
+                  Tools
                 </h2>
                 <div className="soft-skills">
                   <div className="office">
                     
                       100%
-                    <b>MS OFFICE</b>
+                    <b>MS EXCEL</b>
+                    
+
+                  </div>
+                  <div className="office">
+                    
+                      100%
+                    <b>SEM RUSH</b>
                     
 
                   </div>
@@ -149,28 +156,7 @@ const Resume = () => {
                   <div className="office">
                     
                       100%
-                    <b>Google analytics</b>
-                    
-
-                  </div>
-                  <div className="office">
-                    
-                      100%
-                    <b>Mailchimp</b>
-                    
-
-                  </div>
-                  <div className="office">
-                    
-                      100%
                     <b>Shopify</b>
-                    
-
-                  </div>
-                  <div className="office">
-                    
-                      100%
-                    <b>CRM Tools</b>
                     
 
                   </div>

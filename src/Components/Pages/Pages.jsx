@@ -13,11 +13,13 @@ import Blog from '../Blog/Blog'
 import Testimonial from '../Testimonial/Testimonial'
 import Service from '../Service/Service'
 import Projects from '../Projects/Projects'
+import Certificates from '../Certificates/Certificates'
 
 const initialState = {
-  about: false,
+  about: true,
   resume: false,
   projects: false,
+  certificate: false,
   contact: false,
   blog: false,
   test: false,
@@ -45,6 +47,11 @@ const reducer = (state, action) => {
         ...initialState,
         projects: true,
       };
+      case "CERTIFICATES":
+        return {
+          ...initialState,
+          certificate: true,
+        };
     case "CONTACT":
       return {
         ...initialState,
@@ -76,6 +83,9 @@ const Pages = () => {
 
   const[clickCount, setClickCount] = useState(0)
   const[click, setClicked] = useState(0)
+  const[clickProjects, setClickProjects] = useState(0);
+  const[clickCerts, setClickCerts] = useState(0);
+
   const[countResume, setCountResume] = useState(0);
   const[countServ, setCountServ] = useState(0);
   const[countTest, setCountTest] = useState(0)
@@ -104,9 +114,19 @@ const handleResume = () => {
 };
 
 const handleProjects = () => {
-  setClicked(prevCount => prevCount + 1);
-  if (click % 2 === 0){
+  setClickProjects(prevCount => prevCount + 1);
+  if (clickProjects % 2 === 0){
   dispatch({ type: "PROJECTS" });
+  } 
+  else{
+    dispatch({type: "INITIAL"})
+  }
+};
+
+const handleCertificates = () => {
+  setClickCerts(prevCount => prevCount + 1);
+  if (clickCerts % 2 === 0){
+  dispatch({ type: "CERTIFICATES" });
   } 
   else{
     dispatch({type: "INITIAL"})
@@ -153,11 +173,12 @@ const handleContact = () => {
     dispatch({type: "INITIAL"})
   }
 };
+console.log("About",state.about)
 
 
   return (
     <div>
-      <Heading icons={<AiFillFile/>} text="About me" click={handleClick}/>
+      <Heading icons={<AiFillFile/>} text="About me" onClick={handleClick}/>
       <div className="about-page">
       {state.about && <About/>}
       </div>
@@ -168,6 +189,10 @@ const handleContact = () => {
       <Heading icons={<AiFillContacts/>} text="Projects" click={handleProjects}/>
       <div className="about-page">
       {state.projects && <Projects/>}
+      </div>
+      <Heading icons={<FiSettings/>} text="Certificates" click={handleCertificates}/>
+      <div className="about-page">
+      {state.certificate && <Certificates/>}
       </div>
       <Heading icons={<FiSettings/>} text="Services" click={handleServ}/>
       <div className="about-page">

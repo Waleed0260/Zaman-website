@@ -35,7 +35,7 @@ const Testimonial = () => {
    
   ];
   return (
-    <div className='about-me about-test'>
+    <div className='about-me'>
       <div className="testimonial">
         <div className="test-head">
             <b>Testimonials</b>
