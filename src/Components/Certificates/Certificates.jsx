@@ -37,8 +37,8 @@ const Certificates = () => {
   return (
     <div className='about-me  about-cert'>
         <div className="cert-head">
-            <b>Certificates</b>
-            <h2>Tagline required by zaman</h2>
+            <b>Professional Certifications</b>
+            <h2>Demonstrating Expertise and Commitment</h2>
         </div>
         <div className="certificates">
             {certificates.map((data)=>{

@@ -16,7 +16,7 @@ import Projects from '../Projects/Projects'
 import Certificates from '../Certificates/Certificates'
 
 const initialState = {
-  about: true,
+  about: false,
   resume: false,
   projects: false,
   certificate: false,
@@ -81,8 +81,11 @@ const reducer = (state, action) => {
 
 const Pages = () => {
 
-  const[clickCount, setClickCount] = useState(0)
+  // const[clickCount, setClickCount] = useState(0)
   const[click, setClicked] = useState(0)
+  const[counter, setCounter] = useState({
+    clickCount: 0,
+  })
   const[clickProjects, setClickProjects] = useState(0);
   const[clickCerts, setClickCerts] = useState(0);
 
@@ -94,8 +97,11 @@ const Pages = () => {
 const [state, dispatch] = useReducer(reducer, initialState);
 
 const handleClick = () => {
-  setClickCount(prevCount => prevCount + 1);
-  if (clickCount % 2 === 0){
+  setCounter(prevCounter => ({
+    ...prevCounter,
+    clickCount: prevCounter.clickCount + 1
+  }));
+  if ((counter.clickCount) % 2 === 0){
   dispatch({ type: "ABOUT" });
   }
   else{
@@ -173,12 +179,13 @@ const handleContact = () => {
     dispatch({type: "INITIAL"})
   }
 };
-console.log("About",state.about)
 
+console.log("AboutClick", counter.clickCount)
+console.log("Resume Contact", click)
 
   return (
     <div>
-      <Heading icons={<AiFillFile/>} text="About me" onClick={handleClick}/>
+      <Heading icons={<AiFillFile/>} text="About me" click={handleClick}/>
       <div className="about-page">
       {state.about && <About/>}
       </div>
@@ -190,7 +197,7 @@ console.log("About",state.about)
       <div className="about-page">
       {state.projects && <Projects/>}
       </div>
-      <Heading icons={<FiSettings/>} text="Certificates" click={handleCertificates}/>
+      <Heading icons={<FiSettings/>} text="Certifications" click={handleCertificates}/>
       <div className="about-page">
       {state.certificate && <Certificates/>}
       </div>

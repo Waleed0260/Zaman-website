@@ -61,6 +61,10 @@
 
 @media screen and (max-width:480px) {
     .cert-head{
-        margin-left: 200px;
+        margin-left: -60px;
+        width: 150px;
+    }
+    .cert-head>h2{
+        width: 80vw;
     }
 }
