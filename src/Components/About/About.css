@@ -30,7 +30,7 @@
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     margin-top: 50px;
-    margin-left: -110px;
+    margin-left: -5vw
 }
 .about-img>div>.context{
     display: flex;
@@ -95,7 +95,14 @@
     transition: 0.3s;
 }
 
-
+@media screen and (max-width:1400px) {
+    .about-img>img{
+        display: none;
+    }
+    .about-img>div{
+        width: 28vw;
+    }
+}
 
 @media screen and (max-width:1100px) {
     .about-me{
