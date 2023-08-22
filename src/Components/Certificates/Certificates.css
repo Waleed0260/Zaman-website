@@ -24,19 +24,19 @@
 .certificates{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 2vw;
 }
 .single{
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
     height: 350px;
-    width: 330px;
+    width: 22vw;
     text-align: center;
 }
 .single>img{
     height: 250px;
-    width: 320px;
+    width: 20vw;
 }
 
 @media screen and (max-width:1100px) {
@@ -46,16 +46,32 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
+.single{
+    width: 40vw;
 }
-
+.single>img{
+    width: 40vw;
+}
+}
 @media screen and (max-width:768px) {
     .cert-head{
-        margin-left: 50px;
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:660px) {
+    .cert-head{
+        margin-left: 140px;
     }
     .certificates{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
+    }
+    .single{
+        width: 70vw;
+    }
+    .single>img{
+        width: 70vw;
     }
 }
 

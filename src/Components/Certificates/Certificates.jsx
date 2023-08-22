@@ -5,6 +5,8 @@ import AdsDisplay from "../../images/AdsDisplay.png"
 import garage from "../../images/garage.png"
 import promote from "../../images/promote.png"
 import searched from "../../images/searched.png"
+import shopping from "../../images/shopping.png"
+
 
 
 const Certificates = () => {
@@ -23,15 +25,15 @@ const Certificates = () => {
         },
         {
             img: promote,
-            text: "Promote your business from facebook page"
+            text: "Google ads video"
         },
         {
             img: searched,
             text: "Google ads search",
         },
         {
-            img: searched,
-            text: "Google ads search",
+            img: shopping,
+            text: "Shopping ads",
         },
     ]
   return (
