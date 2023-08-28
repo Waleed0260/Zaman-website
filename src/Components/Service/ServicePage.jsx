@@ -1,7 +1,7 @@
 import React from 'react'
 import {ImCross} from "react-icons/im"
 
-const ServicePage = ({title, text, open, onClose}) => {
+const ServicePage = ({title, text, open, onClose, project, client, objectives, goals}) => {
     const OVERLAY_STYLES = {
         position: "fixed",
         left: 0,
@@ -31,6 +31,10 @@ const ServicePage = ({title, text, open, onClose}) => {
 
       <div style={MODAL_STYLES}>
         <div className="ser-data">
+          <h3>{project}</h3>
+          <h3>{client}</h3>
+          <h3>{objectives}</h3>
+          <h3>{goals}</h3>
             <h3>{title}</h3>
             <p>{text}</p>
         </div>

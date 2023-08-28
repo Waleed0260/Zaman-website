@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./Service.css"
 import ServicePage from './ServicePage'
 
-const ServiceData = ({icon, title, para}) => {
+const ServiceData = ({icon, title, para, project, client, objectives, goals}) => {
   const [servicePage, setServicePage] = useState(false);
 
   return (
@@ -12,7 +12,7 @@ const ServiceData = ({icon, title, para}) => {
         <h2>{title}</h2>
         <p>{para}</p>
     </div>
-    <ServicePage open={servicePage} title={title} text={para} onClose={()=> setServicePage(false)}/>
+    <ServicePage open={servicePage} title={title} text={para} onClose={()=> setServicePage(false)} project={project} client={client} objectives={objectives} goals={goals}/>
     </>
   )
 }
