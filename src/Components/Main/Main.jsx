@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Main.css"
 import digitalmarketer from "../../images/digitalmarketer.png"
+import zaman from "../../images/zaman.jpeg"
 import {FiFacebook} from "react-icons/fi"
 import {BsTwitter} from "react-icons/bs"
 import {FiInstagram} from "react-icons/fi"
@@ -58,13 +59,13 @@ const Main = () => {
          * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
          */
         rootElement={document.getElementById("root")}
-        text="Book free Consultation now"
+        text="Start a Conversation"
         className='concul'
       />
         </div>
         <div className="Main-right">
             <span></span>
-            <img src={digitalmarketer} alt="" />
+            <img src={zaman} alt="" />
             <span></span>
         </div>
     </div>

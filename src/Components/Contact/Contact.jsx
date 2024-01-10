@@ -26,8 +26,6 @@ const Contact = () => {
   };
 
 
-
-
   return (
     <div className="about-me">
       <div className="contact-me">

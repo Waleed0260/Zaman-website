@@ -3,7 +3,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className='footer'>
-        <div><p>Designed and developed by  </p> <a href="https://www.linkedin.com/in/waleed0260/" target='blank' style={{textDecoration: "none", color: "black"}}><b> &copy; Muhammad Waleed Ahsan</b></a> </div>
+        <div><p>Designed and developed by  </p> <a href="linkedin.com/in/zamanzahoor" target='blank' style={{textDecoration: "none", color: "black"}}><b> &copy; Zaman zahoor</b></a> </div>
     </div>
   )
 }
