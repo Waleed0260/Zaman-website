@@ -180,9 +180,6 @@ const handleContact = () => {
   }
 };
 
-console.log("AboutClick", counter.clickCount)
-console.log("Resume Contact", click)
-
   return (
     <div>
       <Heading icons={<AiFillFile/>} text="About me" click={handleClick}/>

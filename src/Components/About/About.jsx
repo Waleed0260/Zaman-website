@@ -31,8 +31,7 @@ const About = () => {
         <b>About me</b>
         <h2>Digital Marketing Coordinator | Media Buying </h2>
         <p>
-        Aspiring Digital Marketing Expert with a Specialization in Google Ads, Eager to Kickstart My Journey and Ready to Dive into an Internship or Coordinator Position, Eager to Learn and Contribute to Your Team's Success. I blend the power of AI and prompt engineering into my innovative strategies. As an expert Google Ads Media Buyer, I specialize in maximizing ROI  through meticulously targeted campaigns and data-driven insights. Let's connect and harness the cutting-edge technologies for your business's success.
-
+        Aspiring Digital Marketing Expert with a Specialization in Google Ads, Eager to Kickstart and Ready to Dive into an Position, to Learn and Contribute to Your Team's Success. I blend the power of AI and prompt engineering into my innovative strategies. As an expert Google Ads Media Buyer, I specialize in maximizing ROI through meticulously targeted campaigns and data-driven insights. Let's connect and harness the cutting-edge technologies for your business's success.
         </p>
         <a href={MyResume} download>
         <button>

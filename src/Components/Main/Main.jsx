@@ -1,12 +1,11 @@
 import React from 'react'
 import "./Main.css"
-import digitalmarketer from "../../images/digitalmarketer.png"
 import zaman from "../../images/zaman.jpeg"
 import {FiFacebook} from "react-icons/fi"
 import {BsTwitter} from "react-icons/bs"
 import {FiInstagram} from "react-icons/fi"
 import {BsLinkedin} from "react-icons/bs"
-import {BsYoutube, BsCircleFill, BsCircle} from "react-icons/bs"
+import { BsCircleFill, BsCircle} from "react-icons/bs"
 import {RxCross1} from "react-icons/rx"
 import {BsQuora} from "react-icons/bs"
 import MyResume from "../../images/MyResume.pdf"
@@ -46,7 +45,6 @@ const Main = () => {
                 <span><a href="https://twitter.com/The_Marketer_70" target="blank"><BsTwitter/></a></span>
                 <span><a href="https://instagram.com/zaman.marketer" target="blank"><FiInstagram/></a></span>
                 <span><a href="https://www.linkedin.com/in/zamanzahoor" target="blank"><BsLinkedin/></a></span>
-                <span><a href="https://www.youtube.com/channel/UC5jBVHi1vNjD8UKhKIq3ijQ" target="blank"><BsYoutube/></a></span>
                 <span><a href="https://www.quora.com/profile/Zaman-Zahoor-2" target="blank"><BsQuora/></a></span>
             </div>
             {/* <button className='concul'> </button> */}
